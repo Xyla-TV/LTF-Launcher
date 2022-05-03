@@ -19,13 +19,6 @@
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
 /DELAYLOAD:"discord_game_sdk.dll"
-/DELAYLOAD:"PxFoundation_x64.dll"
-/DELAYLOAD:"PxPvdSDK_x64.dll"
-/DELAYLOAD:"PhysX3_x64.dll"
-/DELAYLOAD:"PhysX3Cooking_x64.dll"
-/DELAYLOAD:"PhysX3Common_x64.dll"
-/DELAYLOAD:"APEXFramework_x64.dll"
-/DELAYLOAD:"NvCloth_x64.dll"
 /DELAYLOAD:"vulkan-1.dll"
 /DELAYLOAD:"libogg_64.dll"
 /DELAYLOAD:"libvorbis_64.dll"
@@ -35,8 +28,13 @@
 /DELAYLOAD:"mfplay.dll"
 /DELAYLOAD:"shlwapi.dll"
 /DELAYLOAD:"GFSDK_Aftermath_Lib.x64.dll"
-/DELAYLOAD:"OVRPlugin.dll"
-/DELAYLOAD:"openvr_api.dll"
+/DELAYLOAD:"PxFoundation_x64.dll"
+/DELAYLOAD:"PxPvdSDK_x64.dll"
+/DELAYLOAD:"PhysX3_x64.dll"
+/DELAYLOAD:"PhysX3Cooking_x64.dll"
+/DELAYLOAD:"PhysX3Common_x64.dll"
+/DELAYLOAD:"APEXFramework_x64.dll"
+/DELAYLOAD:"NvCloth_x64.dll"
 /DELAYLOAD:"mfuuid.dll"
 /DELAYLOAD:"Mfreadwrite.dll"
 /DELAYLOAD:"XAudio2_9redist.dll"
@@ -65,6 +63,8 @@
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\Launch\PCLaunch.rc.res"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Marketplace\DiscordRichPresence\Intermediate\Build\Win64\UE4\Shipping\DiscordRichPresence\Module.DiscordRichPresence.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Marketplace\DiscordRichPresence\Intermediate\Build\Win64\UE4\Shipping\DiscordRichPresence\Module.DiscordRichPresence.gen.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Marketplace\AchievementSystem\Intermediate\Build\Win64\UE4\Shipping\AchievementSystem\Module.AchievementSystem.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Marketplace\AchievementSystem\Intermediate\Build\Win64\UE4\Shipping\AchievementSystem\Module.AchievementSystem.gen.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4\Shipping\Paper2D\Module.Paper2D.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4\Shipping\Paper2D\Module.Paper2D.gen.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\AI\AISupport\Intermediate\Build\Win64\UE4\Shipping\AISupportModule\AISupportModule.cpp.obj"
@@ -92,44 +92,7 @@
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\AutomationUtils\Intermediate\Build\Win64\UE4\Shipping\AutomationUtils\Module.AutomationUtils.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\AutomationUtils\Intermediate\Build\Win64\UE4\Shipping\AutomationUtils\Module.AutomationUtils.gen.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\BackChannel\Intermediate\Build\Win64\UE4\Shipping\BackChannel\Module.BackChannel.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\ChaosCloth\Intermediate\Build\Win64\UE4\Shipping\ChaosCloth\Module.ChaosCloth.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\ChaosCloth\Intermediate\Build\Win64\UE4\Shipping\ChaosCloth\Module.ChaosCloth.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\PlanarCutPlugin\Intermediate\Build\Win64\UE4\Shipping\PlanarCut\Module.PlanarCut.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\Core\SharedPCH.Core.ShadowErrors.h.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\GeometricObjects\Module.GeometricObjects.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\GeometryAlgorithms\Module.GeometryAlgorithms.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\DynamicMesh\Module.DynamicMesh.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\MeshConversion\Module.MeshConversion.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\MeshSolverUtilities\Module.MeshSolverUtilities.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\EditableMesh\Intermediate\Build\Win64\UE4\Shipping\EditableMesh\Module.EditableMesh.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\EditableMesh\Intermediate\Build\Win64\UE4\Shipping\EditableMesh\Module.EditableMesh.gen.1_of_2.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\EditableMesh\Intermediate\Build\Win64\UE4\Shipping\EditableMesh\Module.EditableMesh.gen.2_of_2.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryCollectionPlugin\Intermediate\Build\Win64\UE4\Shipping\GeometryCollectionTracks\Module.GeometryCollectionTracks.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryCollectionPlugin\Intermediate\Build\Win64\UE4\Shipping\GeometryCollectionTracks\Module.GeometryCollectionTracks.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4\Shipping\ProceduralMeshComponent\Module.ProceduralMeshComponent.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4\Shipping\ProceduralMeshComponent\Module.ProceduralMeshComponent.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\ChaosNiagara\Intermediate\Build\Win64\UE4\Shipping\ChaosNiagara\Module.ChaosNiagara.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\ChaosNiagara\Intermediate\Build\Win64\UE4\Shipping\ChaosNiagara\Module.ChaosNiagara.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\NiagaraCore\Module.NiagaraCore.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\NiagaraCore\Module.NiagaraCore.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.1_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.2_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.3_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.4_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.5_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.6_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.gen.1_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.gen.2_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.gen.3_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.gen.4_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.gen.5_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\Niagara\Module.Niagara.gen.6_of_6.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\NiagaraAnimNotifies\Module.NiagaraAnimNotifies.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\NiagaraAnimNotifies\Module.NiagaraAnimNotifies.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\NiagaraShader\Module.NiagaraShader.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\NiagaraShader\Module.NiagaraShader.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4\Shipping\NiagaraVertexFactories\Module.NiagaraVertexFactories.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\CharacterAI\Intermediate\Build\Win64\UE4\Shipping\CharacterAI\CharacterAIModule.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\PlatformCrypto\Intermediate\Build\Win64\UE4\Shipping\PlatformCrypto\PlatformCrypto.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\PlatformCrypto\Intermediate\Build\Win64\UE4\Shipping\PlatformCryptoTypes\PlatformCryptoTypes.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\PlatformCrypto\Intermediate\Build\Win64\UE4\Shipping\PlatformCryptoOpenSSL\Module.PlatformCryptoOpenSSL.cpp.obj"
@@ -183,6 +146,11 @@
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Media\WmfMedia\Intermediate\Build\Win64\UE4\Shipping\WmfMedia\Module.WmfMedia.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Media\WmfMedia\Intermediate\Build\Win64\UE4\Shipping\WmfMediaFactory\Module.WmfMediaFactory.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Media\WmfMedia\Intermediate\Build\Win64\UE4\Shipping\WmfMediaFactory\Module.WmfMediaFactory.gen.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\GeometricObjects\Module.GeometricObjects.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\GeometryAlgorithms\Module.GeometryAlgorithms.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\DynamicMesh\Module.DynamicMesh.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\MeshConversion\Module.MeshConversion.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Experimental\GeometryProcessing\Intermediate\Build\Win64\UE4\Shipping\MeshSolverUtilities\Module.MeshSolverUtilities.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\UE4\Shipping\TcpMessaging\Module.TcpMessaging.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\UE4\Shipping\TcpMessaging\Module.TcpMessaging.gen.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UE4\Shipping\UdpMessaging\Module.UdpMessaging.cpp.obj"
@@ -209,34 +177,18 @@
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\AssetTags\Intermediate\Build\Win64\UE4\Shipping\AssetTags\Module.AssetTags.gen.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\AudioCapture\Intermediate\Build\Win64\UE4\Shipping\AudioCapture\Module.AudioCapture.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\AudioCapture\Intermediate\Build\Win64\UE4\Shipping\AudioCapture\Module.AudioCapture.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\CableComponent\Intermediate\Build\Win64\UE4\Shipping\CableComponent\Module.CableComponent.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\CableComponent\Intermediate\Build\Win64\UE4\Shipping\CableComponent\Module.CableComponent.gen.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\CustomMeshComponent\Intermediate\Build\Win64\UE4\Shipping\CustomMeshComponent\Module.CustomMeshComponent.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\CustomMeshComponent\Intermediate\Build\Win64\UE4\Shipping\CustomMeshComponent\Module.CustomMeshComponent.gen.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\EditableMesh\Intermediate\Build\Win64\UE4\Shipping\EditableMesh\Module.EditableMesh.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\EditableMesh\Intermediate\Build\Win64\UE4\Shipping\EditableMesh\Module.EditableMesh.gen.1_of_2.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\EditableMesh\Intermediate\Build\Win64\UE4\Shipping\EditableMesh\Module.EditableMesh.gen.2_of_2.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Intermediate\Build\Win64\UE4\Shipping\ExampleDeviceProfileSelector\ExampleDeviceProfileSelectorModule.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\GooglePAD\Intermediate\Build\Win64\UE4\Shipping\GooglePAD\Module.GooglePAD.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\GooglePAD\Intermediate\Build\Win64\UE4\Shipping\GooglePAD\Module.GooglePAD.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\LocationServicesBPLibrary\Intermediate\Build\Win64\UE4\Shipping\LocationServicesBPLibrary\Module.LocationServicesBPLibrary.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\LocationServicesBPLibrary\Intermediate\Build\Win64\UE4\Shipping\LocationServicesBPLibrary\Module.LocationServicesBPLibrary.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\MobilePatchingUtils\Intermediate\Build\Win64\UE4\Shipping\MobilePatchingUtils\Module.MobilePatchingUtils.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\MobilePatchingUtils\Intermediate\Build\Win64\UE4\Shipping\MobilePatchingUtils\Module.MobilePatchingUtils.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Oculus\OculusVR\Intermediate\Build\Win64\UE4\Shipping\OculusHMD\Module.OculusHMD.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Oculus\OculusVR\Intermediate\Build\Win64\UE4\Shipping\OculusHMD\Module.OculusHMD.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Oculus\OculusVR\Intermediate\Build\Win64\UE4\Shipping\OculusInput\Module.OculusInput.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Oculus\OculusVR\Intermediate\Build\Win64\UE4\Shipping\OculusMR\Module.OculusMR.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Oculus\OculusVR\Intermediate\Build\Win64\UE4\Shipping\OculusMR\Module.OculusMR.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4\Shipping\PhysXVehicles\Module.PhysXVehicles.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4\Shipping\PhysXVehicles\Module.PhysXVehicles.gen.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4\Shipping\ProceduralMeshComponent\Module.ProceduralMeshComponent.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4\Shipping\ProceduralMeshComponent\Module.ProceduralMeshComponent.gen.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\RuntimePhysXCooking\Intermediate\Build\Win64\UE4\Shipping\RuntimePhysXCooking\RuntimePhysXCooking.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\SoundFields\Intermediate\Build\Win64\UE4\Shipping\SoundFields\Module.SoundFields.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\SoundFields\Intermediate\Build\Win64\UE4\Shipping\SoundFields\Module.SoundFields.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Steam\SteamVR\Intermediate\Build\Win64\UE4\Shipping\SteamVR\Module.SteamVR.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Steam\SteamVR\Intermediate\Build\Win64\UE4\Shipping\SteamVR\Module.SteamVR.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Steam\SteamVR\Intermediate\Build\Win64\UE4\Shipping\SteamVRInput\SteamVRInput.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Steam\SteamVR\Intermediate\Build\Win64\UE4\Shipping\SteamVRInputDevice\PCH.SteamVRInputDevice.h.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Steam\SteamVR\Intermediate\Build\Win64\UE4\Shipping\SteamVRInputDevice\Module.SteamVRInputDevice.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Steam\SteamVR\Intermediate\Build\Win64\UE4\Shipping\SteamVRInputDevice\Module.SteamVRInputDevice.gen.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Synthesis\Intermediate\Build\Win64\UE4\Shipping\Synthesis\Module.Synthesis.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Synthesis\Intermediate\Build\Win64\UE4\Shipping\Synthesis\Module.Synthesis.gen.1_of_4.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\Synthesis\Intermediate\Build\Win64\UE4\Shipping\Synthesis\Module.Synthesis.gen.2_of_4.cpp.obj"
@@ -708,6 +660,15 @@
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\AIModule\Module.AIModule.gen.5_of_7.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\AIModule\Module.AIModule.gen.6_of_7.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\AIModule\Module.AIModule.gen.7_of_7.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\InputDevice\InputDeviceModule.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\Lumin\LuminRuntimeSettings\Module.LuminRuntimeSettings.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\Lumin\LuminRuntimeSettings\Module.LuminRuntimeSettings.gen.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\LiveLinkInterface\Module.LiveLinkInterface.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\LiveLinkInterface\Module.LiveLinkInterface.gen.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\ImageCore\ImageCore.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\Voice\Module.Voice.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\AudioCaptureCore\Module.AudioCaptureCore.cpp.obj"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\AudioCaptureRtAudio\Module.AudioCaptureRtAudio.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\ChaosSolverEngine\Module.ChaosSolverEngine.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\ChaosSolverEngine\Module.ChaosSolverEngine.gen.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\FieldSystemSimulationCore\Module.FieldSystemSimulationCore.cpp.obj"
@@ -731,17 +692,6 @@
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\InteractiveToolsFramework\Module.InteractiveToolsFramework.gen.1_of_3.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\InteractiveToolsFramework\Module.InteractiveToolsFramework.gen.2_of_3.cpp.obj"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\InteractiveToolsFramework\Module.InteractiveToolsFramework.gen.3_of_3.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\VectorVM\Module.VectorVM.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\VectorVM\Module.VectorVM.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\InputDevice\InputDeviceModule.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\Lumin\LuminRuntimeSettings\Module.LuminRuntimeSettings.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\Lumin\LuminRuntimeSettings\Module.LuminRuntimeSettings.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\LiveLinkInterface\Module.LiveLinkInterface.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\LiveLinkInterface\Module.LiveLinkInterface.gen.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\ImageCore\ImageCore.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\Voice\Module.Voice.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\AudioCaptureCore\Module.AudioCaptureCore.cpp.obj"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Shipping\AudioCaptureRtAudio\Module.AudioCaptureRtAudio.cpp.obj"
 "G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Win64\ABWFR_Launcher\Shipping\Default.rc2.res"
 "delayimp.lib"
 "wininet.lib"
@@ -769,18 +719,6 @@
 "imm32.lib"
 "uiautomationcore.lib"
 "G:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Marketplace\DiscordRichPresence\Source\ThirdParty\discord_game_sdk\lib\x86_64\discord_game_sdk.dll.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\PhysX3_x64.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\PhysX3Extensions_x64.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\PhysX3Cooking_x64.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\PhysX3Common_x64.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\PsFastXml_x64.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\PxFoundation_x64.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\PxPvdSDK_x64.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\PxTask_x64.lib"
-"G:\Program Files\Epic Games\UE_4.25\Engine\Source\ThirdParty\PhysX3\Lib\Win64\VS2015\APEXFramework_x64.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\NvCloth_x64.lib"
-"ThirdParty/MikkTSpace/lib/Win64/VS2017/MikkTSpace.lib"
-"ThirdParty/OpenSubdiv/3.2.0/lib/Win64/VS2015/RelWithDebInfo/osdCPU.lib"
 "ThirdParty/OpenSSL\1.1.1\lib\Win64\VS2015\Release\libssl.lib"
 "ThirdParty/OpenSSL\1.1.1\lib\Win64\VS2015\Release\libcrypto.lib"
 "crypt32.lib"
@@ -802,22 +740,18 @@
 "ThirdParty/Windows/DirectX/Lib/x64/X3DAudio.lib"
 "ThirdParty/Windows/DirectX/Lib/x64/xapobase.lib"
 "ThirdParty/Windows/DirectX/Lib/x64/XAPOFX.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/dxgi.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/d3d9.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/d3d11.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/dxguid.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/d3dcompiler.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/d3dx11.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/dinput8.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/X3DAudio.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/xapobase.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/XAPOFX.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/d3d12.lib"
-"ThirdParty/NVIDIA/nvapi/amd64/nvapi64.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/dxguid.lib"
-"ThirdParty/Windows/DirectX/Lib/x64/dsound.lib"
-"ThirdParty/PhysX3\Lib\Win64\VS2015\PhysX3Vehicle_x64.lib"
-"ThirdParty/OpenVR/OpenVRv1_5_17/lib/win64/openvr_api.lib"
+"ThirdParty/MikkTSpace/lib/Win64/VS2017/MikkTSpace.lib"
+"ThirdParty/OpenSubdiv/3.2.0/lib/Win64/VS2015/RelWithDebInfo/osdCPU.lib"
+"ThirdParty/PhysX3\Lib\Win64\VS2015\PhysX3_x64.lib"
+"ThirdParty/PhysX3\Lib\Win64\VS2015\PhysX3Extensions_x64.lib"
+"ThirdParty/PhysX3\Lib\Win64\VS2015\PhysX3Cooking_x64.lib"
+"ThirdParty/PhysX3\Lib\Win64\VS2015\PhysX3Common_x64.lib"
+"ThirdParty/PhysX3\Lib\Win64\VS2015\PsFastXml_x64.lib"
+"ThirdParty/PhysX3\Lib\Win64\VS2015\PxFoundation_x64.lib"
+"ThirdParty/PhysX3\Lib\Win64\VS2015\PxPvdSDK_x64.lib"
+"ThirdParty/PhysX3\Lib\Win64\VS2015\PxTask_x64.lib"
+"G:\Program Files\Epic Games\UE_4.25\Engine\Source\ThirdParty\PhysX3\Lib\Win64\VS2015\APEXFramework_x64.lib"
+"ThirdParty/PhysX3\Lib\Win64\VS2015\NvCloth_x64.lib"
 "ThirdParty/libOpus\opus-1.1/Windows/VS2012/x64/Release/silk_common.lib"
 "ThirdParty/libOpus\opus-1.1/Windows/VS2012/x64/Release/silk_float.lib"
 "ThirdParty/libOpus\opus-1.1/Windows/VS2012/x64/Release/celt.lib"
@@ -833,7 +767,19 @@
 "ThirdParty/FreeType2\FreeType2-2.10.0\lib\Win64\VS2015\Release\freetype.lib"
 "ThirdParty/HarfBuzz\harfbuzz-2.4.0\lib\Win64\VS2015\Release\harfbuzz.lib"
 "ThirdParty/libPNG\libPNG-1.5.2\lib\Win64-llvm\Release\libpng15_static.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/dxgi.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/d3d9.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/d3d11.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/dxguid.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/d3dcompiler.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/d3dx11.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/dinput8.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/X3DAudio.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/xapobase.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/XAPOFX.lib"
+"ThirdParty/NVIDIA/nvapi/amd64/nvapi64.lib"
 "ThirdParty/AMD/AMD_AGS/lib/VS2017\amd_ags_x64_2017_MD.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/d3d12.lib"
 "crypt32.lib"
 "winhttp.lib"
 "ThirdParty/libcurl/curl-7.55.1/lib/Win64/VS2015/libcurl_a.lib"
@@ -844,10 +790,13 @@
 "d3d11.lib"
 "ThirdParty/Windows/XAudio2_9/Lib/x64/xaudio2_9redist.lib"
 "legacy_stdio_definitions.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/dxguid.lib"
+"ThirdParty/Windows/DirectX/Lib/x64/dsound.lib"
 /OUT:"G:\Unreal Projects\ABWFR_Launcher\Binaries\Win64\ABWFR_Launcher-Win64-Shipping.exe"
 /PDB:"G:\Unreal Projects\ABWFR_Launcher\Binaries\Win64\ABWFR_Launcher-Win64-Shipping.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_DiscordRichPresence
+/INCLUDE:IMPLEMENT_MODULE_AchievementSystem
 /INCLUDE:IMPLEMENT_MODULE_Paper2D
 /INCLUDE:IMPLEMENT_MODULE_AISupportModule
 /INCLUDE:IMPLEMENT_MODULE_LightPropagationVolumeRuntime
@@ -861,23 +810,6 @@
 /INCLUDE:IMPLEMENT_MODULE_GeometryCacheTracks
 /INCLUDE:IMPLEMENT_MODULE_AutomationUtils
 /INCLUDE:IMPLEMENT_MODULE_BackChannel
-/INCLUDE:IMPLEMENT_MODULE_ChaosCloth
-/INCLUDE:IMPLEMENT_MODULE_PlanarCut
-/INCLUDE:IMPLEMENT_MODULE_GeometricObjects
-/INCLUDE:IMPLEMENT_MODULE_GeometryAlgorithms
-/INCLUDE:IMPLEMENT_MODULE_DynamicMesh
-/INCLUDE:IMPLEMENT_MODULE_MeshConversion
-/INCLUDE:IMPLEMENT_MODULE_MeshSolverUtilities
-/INCLUDE:IMPLEMENT_MODULE_EditableMesh
-/INCLUDE:IMPLEMENT_MODULE_GeometryCollectionTracks
-/INCLUDE:IMPLEMENT_MODULE_ProceduralMeshComponent
-/INCLUDE:IMPLEMENT_MODULE_ChaosNiagara
-/INCLUDE:IMPLEMENT_MODULE_NiagaraCore
-/INCLUDE:IMPLEMENT_MODULE_Niagara
-/INCLUDE:IMPLEMENT_MODULE_NiagaraAnimNotifies
-/INCLUDE:IMPLEMENT_MODULE_NiagaraShader
-/INCLUDE:IMPLEMENT_MODULE_NiagaraVertexFactories
-/INCLUDE:IMPLEMENT_MODULE_CharacterAI
 /INCLUDE:IMPLEMENT_MODULE_PlatformCrypto
 /INCLUDE:IMPLEMENT_MODULE_PlatformCryptoTypes
 /INCLUDE:IMPLEMENT_MODULE_PlatformCryptoOpenSSL
@@ -906,6 +838,11 @@
 /INCLUDE:IMPLEMENT_MODULE_MediaCompositing
 /INCLUDE:IMPLEMENT_MODULE_WmfMedia
 /INCLUDE:IMPLEMENT_MODULE_WmfMediaFactory
+/INCLUDE:IMPLEMENT_MODULE_GeometricObjects
+/INCLUDE:IMPLEMENT_MODULE_GeometryAlgorithms
+/INCLUDE:IMPLEMENT_MODULE_DynamicMesh
+/INCLUDE:IMPLEMENT_MODULE_MeshConversion
+/INCLUDE:IMPLEMENT_MODULE_MeshSolverUtilities
 /INCLUDE:IMPLEMENT_MODULE_TcpMessaging
 /INCLUDE:IMPLEMENT_MODULE_UdpMessaging
 /INCLUDE:IMPLEMENT_MODULE_ActorSequence
@@ -919,21 +856,12 @@
 /INCLUDE:IMPLEMENT_MODULE_ArchVisCharacter
 /INCLUDE:IMPLEMENT_MODULE_AssetTags
 /INCLUDE:IMPLEMENT_MODULE_AudioCapture
-/INCLUDE:IMPLEMENT_MODULE_CableComponent
 /INCLUDE:IMPLEMENT_MODULE_CustomMeshComponent
+/INCLUDE:IMPLEMENT_MODULE_EditableMesh
 /INCLUDE:IMPLEMENT_MODULE_ExampleDeviceProfileSelector
-/INCLUDE:IMPLEMENT_MODULE_GooglePAD
-/INCLUDE:IMPLEMENT_MODULE_LocationServicesBPLibrary
-/INCLUDE:IMPLEMENT_MODULE_MobilePatchingUtils
-/INCLUDE:IMPLEMENT_MODULE_OculusHMD
-/INCLUDE:IMPLEMENT_MODULE_OculusInput
-/INCLUDE:IMPLEMENT_MODULE_OculusMR
-/INCLUDE:IMPLEMENT_MODULE_PhysXVehicles
+/INCLUDE:IMPLEMENT_MODULE_ProceduralMeshComponent
 /INCLUDE:IMPLEMENT_MODULE_RuntimePhysXCooking
 /INCLUDE:IMPLEMENT_MODULE_SoundFields
-/INCLUDE:IMPLEMENT_MODULE_SteamVR
-/INCLUDE:IMPLEMENT_MODULE_SteamVRInput
-/INCLUDE:IMPLEMENT_MODULE_SteamVRInputDevice
 /INCLUDE:IMPLEMENT_MODULE_Synthesis
 /INCLUDE:IMPLEMENT_MODULE_WebMMoviePlayer
 /INCLUDE:IMPLEMENT_MODULE_WebMMedia
@@ -1053,12 +981,6 @@
 /INCLUDE:IMPLEMENT_MODULE_NavigationSystem
 /INCLUDE:IMPLEMENT_MODULE_GameplayTasks
 /INCLUDE:IMPLEMENT_MODULE_AIModule
-/INCLUDE:IMPLEMENT_MODULE_ChaosSolverEngine
-/INCLUDE:IMPLEMENT_MODULE_FieldSystemSimulationCore
-/INCLUDE:IMPLEMENT_MODULE_FieldSystemEngine
-/INCLUDE:IMPLEMENT_MODULE_GeometryCollectionEngine
-/INCLUDE:IMPLEMENT_MODULE_InteractiveToolsFramework
-/INCLUDE:IMPLEMENT_MODULE_VectorVM
 /INCLUDE:IMPLEMENT_MODULE_InputDevice
 /INCLUDE:IMPLEMENT_MODULE_LuminRuntimeSettings
 /INCLUDE:IMPLEMENT_MODULE_LiveLinkInterface
@@ -1066,3 +988,8 @@
 /INCLUDE:IMPLEMENT_MODULE_Voice
 /INCLUDE:IMPLEMENT_MODULE_AudioCaptureCore
 /INCLUDE:IMPLEMENT_MODULE_AudioCaptureRtAudio
+/INCLUDE:IMPLEMENT_MODULE_ChaosSolverEngine
+/INCLUDE:IMPLEMENT_MODULE_FieldSystemSimulationCore
+/INCLUDE:IMPLEMENT_MODULE_FieldSystemEngine
+/INCLUDE:IMPLEMENT_MODULE_GeometryCollectionEngine
+/INCLUDE:IMPLEMENT_MODULE_InteractiveToolsFramework

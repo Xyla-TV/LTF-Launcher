@@ -1,0 +1,1277 @@
+﻿Log file open, 05/02/22 21:33:18
+LogInit: Display: Running engine for game: ABWFR_Launcher
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.509815
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AchievementSystem
+LogPluginManager: Mounting plugin DiscordRichPresence
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: G:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Engine.ini]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Engine.ini]
+[2022.05.02-19.33.19:879][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Engine.ini]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Engine.ini]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.05.02-19.33.19:879][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Engine.ini]
+[2022.05.02-19.33.19:879][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Engine.ini]
+[2022.05.02-19.33.19:882][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:882][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.05.02-19.33.19:882][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.05.02-19.33.19:882][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:882][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.05.02-19.33.19:882][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:882][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.05.02-19.33.19:883][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.05.02-19.33.19:884][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.02-19.33.19:884][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.05.02-19.33.19:884][  0]LogHAL: Display: Platform has ~ 24 GB [25659351040 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.05.02-19.33.19:884][  0]LogInit: Going up to parent DeviceProfile []
+[2022.05.02-19.33.19:884][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.05.02-19.33.19:884][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Scalability.ini]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.05.02-19.33.19:885][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.05.02-19.33.19:886][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.05.02-19.33.19:886][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.05.02-19.33.19:886][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [G:/Unreal Projects/ABWFR_Launcher/Saved/Config/Windows/Engine.ini]
+[2022.05.02-19.33.19:886][  0]LogInit: Computer: DESKTOP-DG81CJS
+[2022.05.02-19.33.19:886][  0]LogInit: User: Alyx
+[2022.05.02-19.33.19:886][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.05.02-19.33.19:886][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.05.02-19.33.19:886][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2022.05.02-19.33.19:886][  0]LogMemory: Platform Memory Stats for Windows
+[2022.05.02-19.33.19:886][  0]LogMemory: Process Physical Memory: 112.69 MB used, 112.69 MB peak
+[2022.05.02-19.33.19:886][  0]LogMemory: Process Virtual Memory: 95.52 MB used, 95.52 MB peak
+[2022.05.02-19.33.19:886][  0]LogMemory: Physical Memory: 7211.98 MB used,  17258.68 MB free, 24470.66 MB total
+[2022.05.02-19.33.19:886][  0]LogMemory: Virtual Memory: 5141.01 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2022.05.02-19.33.19:892][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.05.02-19.33.20:268][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.05.02-19.33.20:270][  0]LogInit: Using OS detected language (fr-FR).
+[2022.05.02-19.33.20:270][  0]LogInit: Using OS detected locale (fr-FR).
+[2022.05.02-19.33.20:273][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2022.05.02-19.33.20:285][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2022.05.02-19.33.20:285][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2022.05.02-19.33.20:285][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2022.05.02-19.33.20:285][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2022.05.02-19.33.20:285][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2022.05.02-19.33.20:286][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2022.05.02-19.33.20:286][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2022.05.02-19.33.20:302][  0]LogInit: Setting process to per monitor DPI aware
+[2022.05.02-19.33.20:389][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.05.02-19.33.20:389][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.05.02-19.33.22:990][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.05.02-19.33.22:990][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.05.02-19.33.22:990][  0]LogD3D11RHI: D3D11 adapters:
+[2022.05.02-19.33.23:119][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2022.05.02-19.33.23:119][  0]LogD3D11RHI:       8088/0/12235 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.05.02-19.33.23:121][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.05.02-19.33.23:121][  0]LogD3D11RHI:       0/0/12235 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.05.02-19.33.23:121][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.05.02-19.33.23:127][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.05.02-19.33.23:127][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2022.05.02-19.33.23:127][  0]LogWindows: EnumDisplayDevices:
+[2022.05.02-19.33.23:127][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2022.05.02-19.33.23:127][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2022.05.02-19.33.23:128][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2022.05.02-19.33.23:128][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2022.05.02-19.33.23:128][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.05.02-19.33.23:128][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2022.05.02-19.33.23:128][  0]LogD3D11RHI:   Driver Version: 512.59 (internal:30.0.15.1259, unified:512.59)
+[2022.05.02-19.33.23:128][  0]LogD3D11RHI:      Driver Date: 4-20-2022
+[2022.05.02-19.33.23:128][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2022.05.02-19.33.23:200][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.05.02-19.33.23:200][  0]LogD3D11RHI: Async texture creation enabled
+[2022.05.02-19.33.23:200][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.05.02-19.33.23:231][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.05.02-19.33.23:973][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.05.02-19.33.24:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.05.02-19.33.24:088][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.05.02-19.33.24:088][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.05.02-19.33.24:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.05.02-19.33.24:148][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.05.02-19.33.24:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.05.02-19.33.24:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.05.02-19.33.24:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.05.02-19.33.24:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.05.02-19.33.24:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.05.02-19.33.24:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.05.02-19.33.24:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.05.02-19.33.24:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.05.02-19.33.24:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.05.02-19.33.24:397][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.05.02-19.33.24:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.05.02-19.33.24:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.05.02-19.33.24:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.05.02-19.33.24:489][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.05.02-19.33.24:567][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.05.02-19.33.24:953][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../Unreal Projects/ABWFR_Launcher/Intermediate/Shaders/WorkingDirectory/11252/).
+[2022.05.02-19.33.24:953][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alyx/AppData/Local/Temp/UnrealShaderWorkingDir/DB5027654D95CBA926621EA42E035C63/'.
+[2022.05.02-19.33.24:953][  0]LogXGEController: Cleaning working directory: C:/Users/Alyx/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.05.02-19.33.24:954][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.05.02-19.33.24:954][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.05.02-19.33.24:954][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.05.02-19.33.27:852][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.05.02-19.33.27:920][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/Alyx/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.05.02-19.33.27:920][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alyx/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.05.02-19.33.27:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Projects/ABWFR_Launcher/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.05.02-19.33.27:920][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.05.02-19.33.27:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Projects/ABWFR_Launcher/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.02-19.33.27:920][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.05.02-19.33.27:937][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.05.02-19.33.27:937][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.02-19.33.27:937][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.05.02-19.33.27:939][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alyx/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.05.02-19.33.27:939][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.05.02-19.33.27:939][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.05.02-19.33.27:995][  0]LogSlate: Using FreeType 2.10.0
+[2022.05.02-19.33.28:008][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.05.02-19.33.28:256][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2022.05.02-19.33.28:513][  0]LogInit: Selected Device Profile: [Windows]
+[2022.05.02-19.33.28:917][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.05.02-19.33.28:917][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.05.02-19.33.28:917][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.05.02-19.33.28:917][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.05.02-19.33.28:917][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.05.02-19.33.28:993][  0]LogNetVersion: ABWFR_Launcher 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3103893048)
+[2022.05.02-19.33.31:852][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D6D67E9380), frame # 0
+[2022.05.02-19.33.31:852][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D6D66AAAC0), frame # 0
+[2022.05.02-19.33.31:854][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D6D6822A00), frame # 0
+[2022.05.02-19.33.31:909][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.037132 seconds
+[2022.05.02-19.33.31:915][  0]LogUObjectArray: 15742 objects as part of root set at end of initial load.
+[2022.05.02-19.33.31:915][  0]LogUObjectAllocator: 3921760 out of 0 bytes used by permanent object pool.
+[2022.05.02-19.33.31:915][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.05.02-19.33.33:643][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.05.02-19.33.33:667][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.05.02-19.33.34:025][  0]SourceControl: Source control is disabled
+[2022.05.02-19.33.36:040][  0]LogTemp: Found Discord DLL in Binaries directory
+[2022.05.02-19.33.36:426][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.05.02-19.33.36:545][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.05.02-19.33.36:545][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.05.02-19.33.36:892][  0]LogEngine: Initializing Engine...
+[2022.05.02-19.33.36:892][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.05.02-19.33.36:893][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.05.02-19.33.37:241][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.05.02-19.33.37:269][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.05.02-19.33.37:269][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D6DAF5BC00), frame # 0
+[2022.05.02-19.33.37:269][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D6DAFB4B80), frame # 0
+[2022.05.02-19.33.37:290][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.02-19.33.37:290][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.02-19.33.37:290][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.02-19.33.37:290][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.02-19.33.37:290][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.02-19.33.37:290][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.02-19.33.37:290][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.02-19.33.37:290][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.02-19.33.37:291][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.02-19.33.37:291][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.02-19.33.37:327][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.02-19.33.37:327][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.05.02-19.33.37:359][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.05.02-19.33.37:361][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.02-19.33.37:382][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.02-19.33.37:382][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.02-19.33.37:383][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.02-19.33.37:384][  0]LogInit: FAudioDevice initialized.
+[2022.05.02-19.33.37:384][  0]LogNetVersion: Set ProjectVersion to 0.0.2. Version Checksum will be recalculated on next use.
+[2022.05.02-19.33.37:478][  0]LogDerivedDataCache: Saved boot cache 0.09s 75MB C:/Users/Alyx/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.05.02-19.33.37:479][  0]LogInit: Texture streaming: Enabled
+[2022.05.02-19.33.37:563][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.05.02-19.33.37:563][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.05.02-19.33.37:565][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.05.02-19.33.37:649][  0]LogInit: Transaction tracking system initialized
+[2022.05.02-19.33.37:769][  0]BlueprintLog: New page: Editor Load
+[2022.05.02-19.33.38:197][  0]LocalizationService: Localization service is disabled
+[2022.05.02-19.33.38:984][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.05.02-19.33.38:984][  0]LogCook: Display: Mobile HDR setting 1
+[2022.05.02-19.33.39:360][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Projects/ABWFR_Launcher/Content/' took 0.01s
+[2022.05.02-19.33.39:360][  0]AchievementSystemEditor: Warning: AchievementSystemEditor module has been loaded
+[2022.05.02-19.33.39:914][  0]LogUnrealEdMisc: Loading editor; pre map load, took 25.763
+[2022.05.02-19.33.39:915][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/ABWFR_Launcher/Content/Maps/Map_Launcher.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.02-19.33.39:921][  0]LightingResults: New page: Lighting Build
+[2022.05.02-19.33.39:922][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.05.02-19.33.39:922][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.02-19.33.39:922][  0]MapCheck: New page: Map Check
+[2022.05.02-19.33.39:922][  0]LightingResults: New page: Lighting Build
+[2022.05.02-19.33.39:932][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D6DAF5BC00), frame # 0
+[2022.05.02-19.33.39:932][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D6DAFB4B80), frame # 0
+[2022.05.02-19.33.39:932][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.05.02-19.33.40:041][  0]LogAIModule: Creating AISystem for world Map_Launcher
+[2022.05.02-19.33.40:041][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D6C8DABE00), frame # 0
+[2022.05.02-19.33.40:041][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D6DA9C2980), frame # 0
+[2022.05.02-19.33.40:042][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.02-19.33.40:052][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.05.02-19.33.40:053][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.02-19.33.40:053][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,146ms to complete.
+[2022.05.02-19.33.40:053][  0]LogFileHelpers: Loading map 'Map_Launcher' took 0.138
+[2022.05.02-19.33.40:055][  0]LogUnrealEdMisc: Total Editor Startup Time, took 25.904
+[2022.05.02-19.33.40:184][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.02-19.33.40:194][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.02-19.33.40:203][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.02-19.33.40:211][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.02-19.33.40:242][  0]LogCollectionManager: Loaded 0 collections in 0.001524 seconds
+[2022.05.02-19.33.40:258][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Projects/ABWFR_Launcher/Saved/Collections/' took 0.00s
+[2022.05.02-19.33.40:258][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Projects/ABWFR_Launcher/Content/Developers/Alyx/Collections/' took 0.00s
+[2022.05.02-19.33.40:259][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Projects/ABWFR_Launcher/Content/Collections/' took 0.00s
+[2022.05.02-19.33.40:259][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3188 classes and 742 folders.
+[2022.05.02-19.33.40:265][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.05.02-19.33.40:794][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.05.02-19.33.40:818][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2022.05.02-19.33.40:870][  0]LogSlate: Took 0.005630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.02-19.33.40:876][  0]LogSlate: Took 0.004111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.05.02-19.33.40:887][  0]LogSlate: Took 0.006806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.05.02-19.33.40:982][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2022.05.02-19.33.41:098][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.05.02-19.33.41:098][  0]LogLoad: (Engine Initialization) Total time: 26.95 seconds
+[2022.05.02-19.33.41:098][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.05.02-19.33.41:134][  0]LogAssetRegistry: Asset discovery search completed in 12.8793 seconds
+[2022.05.02-19.33.41:138][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.05.02-19.33.41:139][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.05.02-19.33.41:205][  0]LogSlate: Took 0.004388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.02-19.33.52:363][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.05.02-19.33.56:175][624]LogMainFrame: Project requires temp target (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.33.56:175][624]LogLauncherProfile: Unable to use promoted target - ../../../../../../Unreal Projects/ABWFR_Launcher/Binaries/Linux/UE4Game-Linux-Shipping.target does not exist.
+[2022.05.02-19.33.56:328][634]UATHelper: Packaging (Linux): Running AutomationTool...
+[2022.05.02-19.33.57:068][722]UATHelper: Packaging (Linux): Parsing command line: -ScriptsForProject="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" -cook -stage -archive -archivedirectory=G:/Projects -package -ue4exe="G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Linux -build -clientconfig=Shipping -utf8output
+[2022.05.02-19.33.57:630][781]LogSlate: Took 0.010261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.05.02-19.33.59:990][ 55]UATHelper: Packaging (Linux): Setting up ProjectParams for G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject
+[2022.05.02-19.34.00:275][ 89]UATHelper: Packaging (Linux): ABWFR_Launcher.uproject requires a temporary target.cs to be generated (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.34.00:732][144]UATHelper: Packaging (Linux): ********** BUILD COMMAND STARTED **********
+[2022.05.02-19.34.00:748][146]UATHelper: Packaging (Linux): Running: G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe ABWFR_Launcher Linux Shipping -Project="G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject"  "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" -NoUBTMakefiles  -remoteini="G:\Unreal Projects\ABWFR_Launcher" -skipdeploy -Manifest="G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt"
+[2022.05.02-19.34.01:561][210]UATHelper: Packaging (Linux):   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\ABWFR_Launcher).
+[2022.05.02-19.34.02:812][358]UATHelper: Packaging (Linux):   
+[2022.05.02-19.34.02:812][358]UATHelper: Packaging (Linux):   Compiling DiscordRichPresence for Linux
+[2022.05.02-19.34.06:523][802]UATHelper: Packaging (Linux):   Parsing headers for ABWFR_Launcher
+[2022.05.02-19.34.06:580][809]UATHelper: Packaging (Linux):     Running UnrealHeaderTool "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" "G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Linux\B4D820EA\ABWFR_Launcher\Shipping\ABWFR_Launcher.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UHT-ABWFR_Launcher-Linux-Shipping.txt" -installed
+[2022.05.02-19.34.28:721][603]UATHelper: Packaging (Linux):   Reflection code generated for ABWFR_Launcher in 22,1430199 seconds
+[2022.05.02-19.34.28:805][613]UATHelper: Packaging (Linux):   ERROR: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.34.28:811][613]PackagingResults: Error: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.34.28:947][630]UATHelper: Packaging (Linux): Took 28,1920014s to run UnrealBuildTool.exe, ExitCode=6
+[2022.05.02-19.34.28:947][630]UATHelper: Packaging (Linux): UnrealBuildTool failed. See log for more details. (C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt)
+[2022.05.02-19.34.29:088][647]UATHelper: Packaging (Linux): AutomationTool exiting with ExitCode=6 (6)
+[2022.05.02-19.34.29:115][650]UATHelper: Packaging (Linux): BUILD FAILED
+[2022.05.02-19.34.29:115][650]PackagingResults: Error: Unknown Error
+[2022.05.02-19.37.49:739][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.05.02-19.37.52:707][881]LogMainFrame: Project requires temp target (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.37.52:707][881]LogLauncherProfile: Unable to use promoted target - ../../../../../../Unreal Projects/ABWFR_Launcher/Binaries/Linux/UE4Game-Linux-Shipping.target does not exist.
+[2022.05.02-19.37.52:799][887]UATHelper: Packaging (Linux): Running AutomationTool...
+[2022.05.02-19.37.53:177][932]UATHelper: Packaging (Linux): Parsing command line: -ScriptsForProject="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" -cook -stage -archive -archivedirectory=G:/Projects -package -ue4exe="G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Linux -build -clientconfig=Shipping -utf8output
+[2022.05.02-19.37.54:077][ 36]UATHelper: Packaging (Linux): Setting up ProjectParams for G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject
+[2022.05.02-19.37.54:323][ 66]UATHelper: Packaging (Linux): ABWFR_Launcher.uproject requires a temporary target.cs to be generated (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.37.54:649][105]UATHelper: Packaging (Linux): ********** BUILD COMMAND STARTED **********
+[2022.05.02-19.37.54:666][107]UATHelper: Packaging (Linux): Running: G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe ABWFR_Launcher Linux Shipping -Project="G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject"  "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" -NoUBTMakefiles  -remoteini="G:\Unreal Projects\ABWFR_Launcher" -skipdeploy -Manifest="G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt"
+[2022.05.02-19.37.55:497][182]UATHelper: Packaging (Linux):   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\ABWFR_Launcher).
+[2022.05.02-19.38.08:357][529]UATHelper: Packaging (Linux):   While compiling G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\BuildRules\UE4Rules.dll:
+[2022.05.02-19.38.08:357][529]UATHelper: Packaging (Linux):   g:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Marketplace\DiscordRichPresence\Source\DiscordRichPresence\DiscordRichPresence.Build.cs(79,53) : error CS0117: 'UnrealBuildTool.UnrealTargetPlatform' does not contain a definition for 'Any'
+[2022.05.02-19.38.08:364][529]UATHelper: Packaging (Linux):   ERROR: Unable to compile source files.
+[2022.05.02-19.38.08:364][529]PackagingResults: Error: Unable to compile source files.
+[2022.05.02-19.38.08:449][540]UATHelper: Packaging (Linux): Took 13,7891969s to run UnrealBuildTool.exe, ExitCode=6
+[2022.05.02-19.38.08:457][541]UATHelper: Packaging (Linux): UnrealBuildTool failed. See log for more details. (C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt)
+[2022.05.02-19.38.08:474][543]UATHelper: Packaging (Linux): AutomationTool exiting with ExitCode=6 (6)
+[2022.05.02-19.38.08:490][545]UATHelper: Packaging (Linux): BUILD FAILED
+[2022.05.02-19.38.08:498][545]PackagingResults: Error: Unknown Error
+[2022.05.02-19.38.35:346][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.05.02-19.38.37:907][781]LogMainFrame: Project requires temp target (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.38.37:908][781]LogLauncherProfile: Unable to use promoted target - ../../../../../../Unreal Projects/ABWFR_Launcher/Binaries/Linux/UE4Game-Linux-Shipping.target does not exist.
+[2022.05.02-19.38.37:977][784]UATHelper: Packaging (Linux): Running AutomationTool...
+[2022.05.02-19.38.38:093][798]UATHelper: Packaging (Linux): Parsing command line: -ScriptsForProject="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" -cook -stage -archive -archivedirectory=G:/Projects -package -ue4exe="G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Linux -build -clientconfig=Shipping -utf8output
+[2022.05.02-19.38.38:922][896]UATHelper: Packaging (Linux): Setting up ProjectParams for G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject
+[2022.05.02-19.38.39:155][924]UATHelper: Packaging (Linux): ABWFR_Launcher.uproject requires a temporary target.cs to be generated (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.38.39:455][960]UATHelper: Packaging (Linux): ********** BUILD COMMAND STARTED **********
+[2022.05.02-19.38.39:472][962]UATHelper: Packaging (Linux): Running: G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe ABWFR_Launcher Linux Shipping -Project="G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject"  "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" -NoUBTMakefiles  -remoteini="G:\Unreal Projects\ABWFR_Launcher" -skipdeploy -Manifest="G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt"
+[2022.05.02-19.38.40:235][ 43]UATHelper: Packaging (Linux):   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\ABWFR_Launcher).
+[2022.05.02-19.38.42:935][363]UATHelper: Packaging (Linux):   
+[2022.05.02-19.38.42:935][363]UATHelper: Packaging (Linux):   Compiling DiscordRichPresence for Linux
+[2022.05.02-19.38.45:632][681]UATHelper: Packaging (Linux):   ERROR: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.38.45:632][681]PackagingResults: Error: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.38.45:674][687]UATHelper: Packaging (Linux): Took 6,2059778s to run UnrealBuildTool.exe, ExitCode=6
+[2022.05.02-19.38.45:683][688]UATHelper: Packaging (Linux): UnrealBuildTool failed. See log for more details. (C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt)
+[2022.05.02-19.38.45:699][690]UATHelper: Packaging (Linux): AutomationTool exiting with ExitCode=6 (6)
+[2022.05.02-19.38.45:716][692]UATHelper: Packaging (Linux): BUILD FAILED
+[2022.05.02-19.38.45:723][692]PackagingResults: Error: Unknown Error
+[2022.05.02-19.42.05:110][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.05.02-19.42.07:494][ 47]LogMainFrame: Project requires temp target (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.42.07:494][ 47]LogLauncherProfile: Unable to use promoted target - ../../../../../../Unreal Projects/ABWFR_Launcher/Binaries/Linux/UE4Game-Linux-Shipping.target does not exist.
+[2022.05.02-19.42.07:565][ 50]UATHelper: Packaging (Linux): Running AutomationTool...
+[2022.05.02-19.42.07:683][ 64]UATHelper: Packaging (Linux): Parsing command line: -ScriptsForProject="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" -cook -stage -archive -archivedirectory=G:/Projects -package -ue4exe="G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Linux -build -clientconfig=Shipping -utf8output
+[2022.05.02-19.42.08:591][171]UATHelper: Packaging (Linux): Setting up ProjectParams for G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject
+[2022.05.02-19.42.08:849][200]UATHelper: Packaging (Linux): ABWFR_Launcher.uproject requires a temporary target.cs to be generated (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.42.09:146][236]UATHelper: Packaging (Linux): ********** BUILD COMMAND STARTED **********
+[2022.05.02-19.42.09:163][238]UATHelper: Packaging (Linux): Running: G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe ABWFR_Launcher Linux Shipping -Project="G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject"  "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" -NoUBTMakefiles  -remoteini="G:\Unreal Projects\ABWFR_Launcher" -skipdeploy -Manifest="G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt"
+[2022.05.02-19.42.09:989][317]UATHelper: Packaging (Linux):   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\ABWFR_Launcher).
+[2022.05.02-19.42.11:893][545]UATHelper: Packaging (Linux):   While compiling G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\BuildRules\UE4Rules.dll:
+[2022.05.02-19.42.11:893][545]UATHelper: Packaging (Linux):   g:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Marketplace\DiscordRichPresence\Source\DiscordRichPresence\DiscordRichPresence.Build.cs(83,58) : error CS0117: 'UnrealBuildTool.ModuleRules.PrecompileTargetsType' does not contain a definition for 'Linux'
+[2022.05.02-19.42.11:900][545]UATHelper: Packaging (Linux):   ERROR: Unable to compile source files.
+[2022.05.02-19.42.11:900][545]PackagingResults: Error: Unable to compile source files.
+[2022.05.02-19.42.11:951][552]UATHelper: Packaging (Linux): Took 2,7899982s to run UnrealBuildTool.exe, ExitCode=6
+[2022.05.02-19.42.11:951][552]UATHelper: Packaging (Linux): UnrealBuildTool failed. See log for more details. (C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt)
+[2022.05.02-19.42.11:968][554]UATHelper: Packaging (Linux): AutomationTool exiting with ExitCode=6 (6)
+[2022.05.02-19.42.11:993][557]UATHelper: Packaging (Linux): BUILD FAILED
+[2022.05.02-19.42.12:000][557]PackagingResults: Error: Unknown Error
+[2022.05.02-19.43.04:961][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.05.02-19.43.07:607][939]LogMainFrame: Project requires temp target (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.43.07:607][939]LogLauncherProfile: Unable to use promoted target - ../../../../../../Unreal Projects/ABWFR_Launcher/Binaries/Linux/UE4Game-Linux-Shipping.target does not exist.
+[2022.05.02-19.43.07:680][944]UATHelper: Packaging (Linux): Running AutomationTool...
+[2022.05.02-19.43.07:796][958]UATHelper: Packaging (Linux): Parsing command line: -ScriptsForProject="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" -cook -stage -archive -archivedirectory=G:/Projects -package -ue4exe="G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Linux -build -clientconfig=Shipping -utf8output
+[2022.05.02-19.43.08:681][ 62]UATHelper: Packaging (Linux): Setting up ProjectParams for G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject
+[2022.05.02-19.43.08:945][ 94]UATHelper: Packaging (Linux): ABWFR_Launcher.uproject requires a temporary target.cs to be generated (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.43.09:249][129]UATHelper: Packaging (Linux): ********** BUILD COMMAND STARTED **********
+[2022.05.02-19.43.09:267][131]UATHelper: Packaging (Linux): Running: G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe ABWFR_Launcher Linux Shipping -Project="G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject"  "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" -NoUBTMakefiles  -remoteini="G:\Unreal Projects\ABWFR_Launcher" -skipdeploy -Manifest="G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt"
+[2022.05.02-19.43.10:065][203]UATHelper: Packaging (Linux):   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\ABWFR_Launcher).
+[2022.05.02-19.43.12:718][521]UATHelper: Packaging (Linux):   
+[2022.05.02-19.43.12:718][521]UATHelper: Packaging (Linux):   Compiling DiscordRichPresence for Linux
+[2022.05.02-19.43.15:310][831]UATHelper: Packaging (Linux):   ERROR: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.43.15:310][831]PackagingResults: Error: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.43.15:353][837]UATHelper: Packaging (Linux): Took 6,087s to run UnrealBuildTool.exe, ExitCode=6
+[2022.05.02-19.43.15:361][838]UATHelper: Packaging (Linux): UnrealBuildTool failed. See log for more details. (C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt)
+[2022.05.02-19.43.15:378][840]UATHelper: Packaging (Linux): AutomationTool exiting with ExitCode=6 (6)
+[2022.05.02-19.43.15:403][843]UATHelper: Packaging (Linux): BUILD FAILED
+[2022.05.02-19.43.15:410][843]PackagingResults: Error: Unknown Error
+[2022.05.02-19.44.26:377][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.05.02-19.44.29:085][ 58]LogMainFrame: Project requires temp target (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.44.29:085][ 58]LogLauncherProfile: Unable to use promoted target - ../../../../../../Unreal Projects/ABWFR_Launcher/Binaries/Linux/UE4Game-Linux-Shipping.target does not exist.
+[2022.05.02-19.44.29:169][ 63]UATHelper: Packaging (Linux): Running AutomationTool...
+[2022.05.02-19.44.29:294][ 78]UATHelper: Packaging (Linux): Parsing command line: -ScriptsForProject="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" -cook -stage -archive -archivedirectory=G:/Projects -package -ue4exe="G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Linux -build -clientconfig=Shipping -utf8output
+[2022.05.02-19.44.30:194][183]UATHelper: Packaging (Linux): Setting up ProjectParams for G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject
+[2022.05.02-19.44.30:427][211]UATHelper: Packaging (Linux): ABWFR_Launcher.uproject requires a temporary target.cs to be generated (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.44.30:719][246]UATHelper: Packaging (Linux): ********** BUILD COMMAND STARTED **********
+[2022.05.02-19.44.30:736][248]UATHelper: Packaging (Linux): Running: G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe ABWFR_Launcher Linux Shipping -Project="G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject"  "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" -NoUBTMakefiles  -remoteini="G:\Unreal Projects\ABWFR_Launcher" -skipdeploy -Manifest="G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt"
+[2022.05.02-19.44.31:309][310]UATHelper: Packaging (Linux):   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\ABWFR_Launcher).
+[2022.05.02-19.44.33:418][557]UATHelper: Packaging (Linux):   While compiling G:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\BuildRules\UE4Rules.dll:
+[2022.05.02-19.44.33:418][557]UATHelper: Packaging (Linux):   g:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Marketplace\DiscordRichPresence\Source\DiscordRichPresence\DiscordRichPresence.Build.cs(83,49) : error CS0117: 'UnrealBuildTool.ModuleRules.PrecompileTargetsType' does not contain a definition for 'Alyx'
+[2022.05.02-19.44.33:426][558]UATHelper: Packaging (Linux):   ERROR: Unable to compile source files.
+[2022.05.02-19.44.33:427][558]PackagingResults: Error: Unable to compile source files.
+[2022.05.02-19.44.33:476][564]UATHelper: Packaging (Linux): Took 2,7400011s to run UnrealBuildTool.exe, ExitCode=6
+[2022.05.02-19.44.33:484][565]UATHelper: Packaging (Linux): UnrealBuildTool failed. See log for more details. (C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt)
+[2022.05.02-19.44.33:501][567]UATHelper: Packaging (Linux): AutomationTool exiting with ExitCode=6 (6)
+[2022.05.02-19.44.33:525][570]UATHelper: Packaging (Linux): BUILD FAILED
+[2022.05.02-19.44.33:533][570]PackagingResults: Error: Unknown Error
+[2022.05.02-19.46.13:318][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.05.02-19.46.15:372][262]LogMainFrame: Project requires temp target (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.46.15:372][262]LogLauncherProfile: Unable to use promoted target - ../../../../../../Unreal Projects/ABWFR_Launcher/Binaries/Linux/UE4Game-Linux-Shipping.target does not exist.
+[2022.05.02-19.46.15:446][266]UATHelper: Packaging (Linux): Running AutomationTool...
+[2022.05.02-19.46.15:553][279]UATHelper: Packaging (Linux): Parsing command line: -ScriptsForProject="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" -cook -stage -archive -archivedirectory=G:/Projects -package -ue4exe="G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Linux -build -clientconfig=Shipping -utf8output
+[2022.05.02-19.46.16:417][381]UATHelper: Packaging (Linux): Setting up ProjectParams for G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject
+[2022.05.02-19.46.16:684][413]UATHelper: Packaging (Linux): ABWFR_Launcher.uproject requires a temporary target.cs to be generated (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.46.16:963][445]UATHelper: Packaging (Linux): ********** BUILD COMMAND STARTED **********
+[2022.05.02-19.46.16:979][447]UATHelper: Packaging (Linux): Running: G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe ABWFR_Launcher Linux Shipping -Project="G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject"  "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" -NoUBTMakefiles  -remoteini="G:\Unreal Projects\ABWFR_Launcher" -skipdeploy -Manifest="G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt"
+[2022.05.02-19.46.17:832][528]UATHelper: Packaging (Linux):   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\ABWFR_Launcher).
+[2022.05.02-19.46.20:441][840]UATHelper: Packaging (Linux):   
+[2022.05.02-19.46.20:441][840]UATHelper: Packaging (Linux):   Compiling DiscordRichPresence for Linux
+[2022.05.02-19.46.22:891][134]UATHelper: Packaging (Linux):   ERROR: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.46.22:892][134]PackagingResults: Error: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.46.22:941][140]UATHelper: Packaging (Linux): Took 5,9609973s to run UnrealBuildTool.exe, ExitCode=6
+[2022.05.02-19.46.22:949][141]UATHelper: Packaging (Linux): UnrealBuildTool failed. See log for more details. (C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt)
+[2022.05.02-19.46.22:958][142]UATHelper: Packaging (Linux): AutomationTool exiting with ExitCode=6 (6)
+[2022.05.02-19.46.22:983][145]UATHelper: Packaging (Linux): BUILD FAILED
+[2022.05.02-19.46.22:990][145]PackagingResults: Error: Unknown Error
+[2022.05.02-19.48.26:916][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.05.02-19.48.29:243][263]LogMainFrame: Project requires temp target (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.48.29:243][263]LogLauncherProfile: Unable to use promoted target - ../../../../../../Unreal Projects/ABWFR_Launcher/Binaries/Linux/UE4Game-Linux-Shipping.target does not exist.
+[2022.05.02-19.48.29:324][268]UATHelper: Packaging (Linux): Running AutomationTool...
+[2022.05.02-19.48.29:440][282]UATHelper: Packaging (Linux): Parsing command line: -ScriptsForProject="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" -cook -stage -archive -archivedirectory=G:/Projects -package -ue4exe="G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Linux -build -clientconfig=Shipping -utf8output
+[2022.05.02-19.48.30:287][378]UATHelper: Packaging (Linux): Setting up ProjectParams for G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject
+[2022.05.02-19.48.30:569][412]UATHelper: Packaging (Linux): ABWFR_Launcher.uproject requires a temporary target.cs to be generated (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.48.30:848][446]UATHelper: Packaging (Linux): ********** BUILD COMMAND STARTED **********
+[2022.05.02-19.48.30:872][449]UATHelper: Packaging (Linux): Running: G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe ABWFR_Launcher Linux Shipping -Project="G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject"  "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" -NoUBTMakefiles  -remoteini="G:\Unreal Projects\ABWFR_Launcher" -skipdeploy -Manifest="G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt"
+[2022.05.02-19.48.31:644][529]UATHelper: Packaging (Linux):   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\ABWFR_Launcher).
+[2022.05.02-19.48.32:138][587]UATHelper: Packaging (Linux):   
+[2022.05.02-19.48.32:138][587]UATHelper: Packaging (Linux):   Compiling DiscordRichPresence for Linux
+[2022.05.02-19.48.34:613][884]UATHelper: Packaging (Linux):   ERROR: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.48.34:613][884]PackagingResults: Error: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.48.34:663][890]UATHelper: Packaging (Linux): Took 3,7928235s to run UnrealBuildTool.exe, ExitCode=6
+[2022.05.02-19.48.34:663][890]UATHelper: Packaging (Linux): UnrealBuildTool failed. See log for more details. (C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Shipping.txt)
+[2022.05.02-19.48.34:681][892]UATHelper: Packaging (Linux): AutomationTool exiting with ExitCode=6 (6)
+[2022.05.02-19.48.34:706][895]UATHelper: Packaging (Linux): BUILD FAILED
+[2022.05.02-19.48.34:712][895]PackagingResults: Error: Unknown Error
+[2022.05.02-19.49.53:159][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.05.02-19.49.56:124][384]LogMainFrame: Project requires temp target (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.49.56:124][384]LogLauncherProfile: Unable to use promoted target - ../../../../../../Unreal Projects/ABWFR_Launcher/Binaries/Linux/UE4Game.target does not exist.
+[2022.05.02-19.49.56:209][388]UATHelper: Packaging (Linux): Running AutomationTool...
+[2022.05.02-19.49.56:325][402]UATHelper: Packaging (Linux): Parsing command line: -ScriptsForProject="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="G:/Unreal Projects/ABWFR_Launcher/ABWFR_Launcher.uproject" -cook -stage -archive -archivedirectory=G:/Projects -package -ue4exe="G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Linux -build -clientconfig=Development -utf8output
+[2022.05.02-19.49.57:167][497]UATHelper: Packaging (Linux): Setting up ProjectParams for G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject
+[2022.05.02-19.49.57:409][526]UATHelper: Packaging (Linux): ABWFR_Launcher.uproject requires a temporary target.cs to be generated (DiscordRichPresence plugin is enabled)
+[2022.05.02-19.49.57:675][558]UATHelper: Packaging (Linux): ********** BUILD COMMAND STARTED **********
+[2022.05.02-19.49.57:701][561]UATHelper: Packaging (Linux): Running: G:\Program Files\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe ABWFR_Launcher Linux Development -Project="G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject"  "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" -NoUBTMakefiles  -remoteini="G:\Unreal Projects\ABWFR_Launcher" -skipdeploy -Manifest="G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Manifest.xml" -NoHotReload -log="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Development.txt"
+[2022.05.02-19.49.58:437][631]UATHelper: Packaging (Linux):   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\ABWFR_Launcher).
+[2022.05.02-19.49.58:940][691]UATHelper: Packaging (Linux):   
+[2022.05.02-19.49.58:940][691]UATHelper: Packaging (Linux):   Compiling DiscordRichPresence for Linux
+[2022.05.02-19.50.01:681][ 19]UATHelper: Packaging (Linux):   Parsing headers for ABWFR_Launcher
+[2022.05.02-19.50.01:707][ 22]UATHelper: Packaging (Linux):     Running UnrealHeaderTool "G:\Unreal Projects\ABWFR_Launcher\ABWFR_Launcher.uproject" "G:\Unreal Projects\ABWFR_Launcher\Intermediate\Build\Linux\B4D820EA\ABWFR_Launcher\Development\ABWFR_Launcher.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UHT-ABWFR_Launcher-Linux-Development.txt" -installed
+[2022.05.02-19.50.08:386][823]UATHelper: Packaging (Linux):   Reflection code generated for ABWFR_Launcher in 6,6801641 seconds
+[2022.05.02-19.50.08:467][832]UATHelper: Packaging (Linux):   ERROR: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.50.08:467][832]PackagingResults: Error: Missing precompiled manifest for 'DiscordRichPresence'. This module was most likely not flagged for being included in a precompiled build - set 'PrecompileForTargets = PrecompileTargetsType.Any;' in DiscordRichPresence.build.cs to override.
+[2022.05.02-19.50.08:518][839]UATHelper: Packaging (Linux): Took 10,8180228s to run UnrealBuildTool.exe, ExitCode=6
+[2022.05.02-19.50.08:518][839]UATHelper: Packaging (Linux): UnrealBuildTool failed. See log for more details. (C:\Users\Alyx\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_4.25\UBT-ABWFR_Launcher-Linux-Development.txt)
+[2022.05.02-19.50.08:535][841]UATHelper: Packaging (Linux): AutomationTool exiting with ExitCode=6 (6)
+[2022.05.02-19.50.08:560][844]UATHelper: Packaging (Linux): BUILD FAILED
+[2022.05.02-19.50.08:568][844]PackagingResults: Error: Unknown Error
+[2022.05.02-19.55.31:361][298]LogSlate: Took 0.006474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.05.02-19.55.35:420][775]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.02-19.55.35:456][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.02-19.55.35:499][775]PIE: New page: PIE session: Map_Launcher (2 mai 2022 à 23:55:35)
+[2022.05.02-19.55.35:519][775]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.05.02-19.55.35:546][775]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.05.02-19.55.35:546][775]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Launcher
+[2022.05.02-19.55.35:580][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033620s)
+[2022.05.02-19.55.35:604][775]LogAIModule: Creating AISystem for world Map_Launcher
+[2022.05.02-19.55.35:604][775]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D6CC85D000), frame # 44775
+[2022.05.02-19.55.35:604][775]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D6CC552AC0), frame # 44775
+[2022.05.02-19.55.35:604][775]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2022.05.02-19.55.35:604][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Launcher.Map_Launcher to /Game/Maps/UEDPIE_0_Map_Launcher.Map_Launcher (0.059029s)
+[2022.05.02-19.55.35:613][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.05.02-19.55.35:659][775]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.02-19.55.35:659][775]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.02-19.55.35:659][775]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.02-19.55.35:659][775]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.02-19.55.35:659][775]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.02-19.55.35:659][775]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.02-19.55.35:659][775]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.02-19.55.35:659][775]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.02-19.55.35:660][775]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.02-19.55.35:660][775]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.02-19.55.35:664][775]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.02-19.55.35:664][775]LogAudioMixer: Display: 1: FrontRight
+[2022.05.02-19.55.35:683][775]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.05.02-19.55.35:683][775]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.02-19.55.35:683][775]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.02-19.55.35:683][775]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.02-19.55.35:684][775]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.02-19.55.35:699][775]LogInit: FAudioDevice initialized.
+[2022.05.02-19.55.35:749][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.02-19.55.35:772][775]LogLoad: Game class is 'GM_Launcher_C'
+[2022.05.02-19.55.35:824][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Launcher.Map_Launcher up for play (max tick rate 0) at 2022.05.02-21.55.35
+[2022.05.02-19.55.35:825][775]LogWorld: Bringing up level for play took: 0.000509
+[2022.05.02-19.55.35:825][775]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2022.05.02-19.55.35:886][775]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2022.05.02-19.55.35:949][775]LogDiscord: Initializing Discord
+[2022.05.02-19.55.36:055][775]LogDiscord: Initialized Discord Core! Client: 970083829127716904
+[2022.05.02-19.55.36:159][775]PIE: Server logged in
+[2022.05.02-19.55.36:161][775]PIE: Play in editor total start time 0,708 seconds.
+[2022.05.02-19.55.36:233][776]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2022.05.02-19.55.36:632][807]LogDiscord: Updated activity: Success
+[2022.05.02-19.55.43:089][573]LogSlate: Window 'LTF Launcher Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2022.05.02-19.55.43:098][573]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Launcher
+[2022.05.02-19.55.43:120][573]LogDiscord: Shutting down Discord
+[2022.05.02-19.55.43:120][573]LogWorld: UWorld::CleanupWorld for Map_Launcher, bSessionEnded=true, bCleanupResources=true
+[2022.05.02-19.55.43:120][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.02-19.55.43:128][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.02-19.55.43:130][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.02-19.55.43:158][573]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D6CC85D000), frame # 45573
+[2022.05.02-19.55.43:158][573]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D6CC552AC0), frame # 45573
+[2022.05.02-19.55.43:159][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.05.02-19.55.43:192][575]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.05.02-19.55.59:332][739]LogSlate: Took 0.001103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.02-19.57.41:272][ 44]LogHttp: Warning: 000001D6CC494800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4B915447-465C-1ADF-48F5-41A08BBDE96F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=6a2fd35941f6065e0ac4a182eb9f77dc%7C0f0fb6c7a3cb487bae4e2a167d642cb5%7C039d0d11-4d15-408e-843d-d46630f2e7d8&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.05.02-19.57.41:272][ 44]LogHttp: Warning: 000001D6CC494800: request failed, libcurl error: 0 (No error)
+[2022.05.02-19.57.41:272][ 44]LogHttp: Warning: 000001D6CC494800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d6b737ff70 [can pipeline])
+[2022.05.02-19.57.41:272][ 44]LogHttp: Warning: 000001D6CC494800: libcurl info message cache 1 (Re-using existing connection! (#11) with host datarouter.ol.epicgames.com)
+[2022.05.02-19.57.41:272][ 44]LogHttp: Warning: 000001D6CC494800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.231.82.104) port 443 (#11))
+[2022.05.02-19.57.41:272][ 44]LogHttp: Warning: 000001D6CC494800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.05.02-19.57.41:272][ 44]LogHttp: Warning: 000001D6CC494800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2022.05.02-19.57.41:273][ 44]LogHttp: Warning: 000001D6CC494800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.05.02-19.57.41:273][ 44]LogHttp: Warning: 000001D6CC494800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.05.02-19.57.41:273][ 44]LogHttp: Warning: 000001D6CC494800: libcurl info message cache 7 (Closing connection 11)
+[2022.05.02-19.57.41:273][ 44]LogHttp: Warning: 000001D6CC494800: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.05.02-19.57.41:273][ 44]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4B915447-465C-1ADF-48F5-41A08BBDE96F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=6a2fd35941f6065e0ac4a182eb9f77dc%7C0f0fb6c7a3cb487bae4e2a167d642cb5%7C039d0d11-4d15-408e-843d-d46630f2e7d8&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2022.05.02-20.06.19:687][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Launcher" FILE="../../../../../../Unreal Projects/ABWFR_Launcher/Content/Maps/Map_Launcher.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.02-20.06.19:729][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.05.02-20.06.20:104][290]LogSavePackage: Moving '../../../../../../Unreal Projects/ABWFR_Launcher/Saved/Map_LauncherA659E5164547042DA4705D850442046D.tmp' to '../../../../../../Unreal Projects/ABWFR_Launcher/Content/Maps/Map_Launcher.umap'
+[2022.05.02-20.06.20:257][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Launcher_BuiltData" FILE="../../../../../../Unreal Projects/ABWFR_Launcher/Content/Maps/Map_Launcher_BuiltData.uasset" SILENT=true
+[2022.05.02-20.06.20:264][290]LogSavePackage: Moving '../../../../../../Unreal Projects/ABWFR_Launcher/Saved/Map_Launcher_BuiltDataB3C16390472C6BE9C07F25922E54F43B.tmp' to '../../../../../../Unreal Projects/ABWFR_Launcher/Content/Maps/Map_Launcher_BuiltData.uasset'
+[2022.05.02-20.06.20:273][290]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.02-20.06.20:273][290]LogContentValidation: Display: Validating World /Game/Maps/Map_Launcher.Map_Launcher
+[2022.05.02-20.06.20:273][290]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Map_Launcher_BuiltData.Map_Launcher_BuiltData
+[2022.05.02-20.06.47:641][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.05.02-20.06.47:694][697]LogSlate: Window 'ABWFR_Launcher - Unreal Editor' being destroyed
+[2022.05.02-20.06.47:775][698]Cmd: QUIT_EDITOR
+[2022.05.02-20.06.47:775][698]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.05.02-20.06.47:782][698]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.05.02-20.06.47:969][698]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.05.02-20.06.47:978][698]LogExit: Preparing to exit.
+[2022.05.02-20.06.48:814][698]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.05.02-20.06.48:818][698]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.05.02-20.06.48:818][698]LogExit: Editor shut down
+[2022.05.02-20.06.48:819][698]LogExit: Transaction tracking system shut down
+[2022.05.02-20.06.49:039][698]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001D6D67E9380), frame # 58698
+[2022.05.02-20.06.49:039][698]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D6D66AAAC0), frame # 58698
+[2022.05.02-20.06.49:039][698]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D6D6822A00), frame # 58698
+[2022.05.02-20.06.49:046][698]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D6C8DABE00), frame # 58698
+[2022.05.02-20.06.49:046][698]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D6DA9C2980), frame # 58698
+[2022.05.02-20.06.49:070][698]LogExit: Object subsystem successfully closed.
+[2022.05.02-20.06.49:094][698]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.05.02-20.06.49:112][698]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (738)
+[2022.05.02-20.06.49:112][698]LogModuleManager: Shutting down and abandoning module Voice (736)
+[2022.05.02-20.06.49:112][698]LogModuleManager: Shutting down and abandoning module UATHelper (734)
+[2022.05.02-20.06.49:112][698]LogModuleManager: Shutting down and abandoning module LauncherServices (732)
+[2022.05.02-20.06.49:112][698]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (730)
+[2022.05.02-20.06.49:112][698]LogModuleManager: Shutting down and abandoning module SceneOutliner (728)
+[2022.05.02-20.06.49:112][698]LogModuleManager: Shutting down and abandoning module AddContentDialog (726)
+[2022.05.02-20.06.49:112][698]LogModuleManager: Shutting down and abandoning module WidgetCarousel (725)
+[2022.05.02-20.06.49:112][698]LogModuleManager: Shutting down and abandoning module EditorWidgets (722)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module CollectionManager (720)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module StatsViewer (718)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (716)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module FoliageEdit (714)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module LandscapeEditor (712)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module MeshPaintMode (710)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (708)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module ActorPickerMode (706)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (704)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (702)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module AutomationWorker (700)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (698)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (696)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (694)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (692)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (690)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (688)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (686)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (684)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (682)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module WebMMedia (680)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (678)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (676)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module SequenceRecorder (675)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (672)
+[2022.05.02-20.06.49:113][698]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (670)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (668)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (666)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (664)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (662)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (660)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module AchievementSystemEditor (658)
+[2022.05.02-20.06.49:114][698]AchievementSystemEditor: Warning: AchievementSystemEditor module has been unloaded
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (656)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (654)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (652)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module TextureAlignMode (650)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module BspMode (648)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module PlacementMode (647)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module GeometryMode (644)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (642)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module SmartSnapping (640)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module SessionServices (638)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module MeshPaint (636)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module ViewportSnapping (634)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module ViewportInteraction (632)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module ClothPainter (630)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (629)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module LogVisualizer (626)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module IntroTutorials (624)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (623)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (620)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (618)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (616)
+[2022.05.02-20.06.49:114][698]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (615)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (612)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (610)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (608)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (606)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module TraceInsights (604)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module TraceServices (603)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (600)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (598)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module InputBindingEditor (596)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module MergeActors (594)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (592)
+[2022.05.02-20.06.49:795][698]LogModuleManager: Shutting down and abandoning module LocalizationService (591)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module HardwareTargeting (588)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (586)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module UndoHistory (584)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module XmlParser (582)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module Blutility (580)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (578)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (577)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (574)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module SettingsEditor (572)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module ProjectLauncher (570)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module SessionFrontend (568)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module ProfilerClient (566)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module DeviceManager (564)
+[2022.05.02-20.06.49:796][698]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (563)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module AutomationController (560)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module AutomationWindow (558)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module Layers (556)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (554)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module DetailCustomizations (552)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module PackagesDialog (550)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (548)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module Persona (546)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (545)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module AnimGraph (543)
+[2022.05.02-20.06.49:828][698]LogModuleManager: Shutting down and abandoning module Kismet (540)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module KismetWidgets (539)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module GraphEditor (536)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module StructViewer (534)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module ClassViewer (532)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module Toolbox (530)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module ModuleUI (528)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module OutputLog (526)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module GammaUI (524)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module Documentation (522)
+[2022.05.02-20.06.49:829][698]LogModuleManager: Shutting down and abandoning module LiveCoding (520)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module LevelSequence (518)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (516)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module MovieScene (514)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (512)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module LauncherPlatform (510)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module AnalyticsET (508)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module PortalServices (506)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module PortalRpc (504)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module MessagingRpc (502)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (500)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module AudioMixerCore (499)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module AIModule (496)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module GameplayDebugger (495)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module AITestSuite (493)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module NavigationSystem (491)
+[2022.05.02-20.06.49:830][698]LogModuleManager: Shutting down and abandoning module ProfilerService (488)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module TaskGraph (486)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module ScreenshotTools (484)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module SynthesisEditor (482)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module Synthesis (480)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module SignalProcessing (479)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (476)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (474)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module EditableMesh (472)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (470)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (467)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AssetTags (464)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (462)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (460)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AppleImageUtils (458)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AndroidPermission (456)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (454)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (452)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module TemplateSequence (450)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (448)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (446)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (444)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (442)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (441)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (438)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (436)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MediaCompositing (434)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module ImgMedia (432)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module DiscordRichPresence (430)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AchievementSystem (428)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (426)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (424)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (422)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (420)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (418)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (416)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module MeshConversion (414)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module DynamicMesh (412)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (410)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module GeometricObjects (408)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (406)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (404)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module BackChannel (402)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (400)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AutomationUtils (398)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AlembicImporter (396)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module AlembicLibrary (395)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module GeometryCache (394)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (393)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (388)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (386)
+[2022.05.02-20.06.49:974][698]LogModuleManager: Shutting down and abandoning module PluginBrowser (384)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (382)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (380)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (378)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module CurveEditorTools (376)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (374)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module CryptoKeys (372)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (370)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (368)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module UObjectPlugin (366)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (364)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (362)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (360)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (358)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module GitSourceControl (356)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module SourceControl (355)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (352)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (350)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (348)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (346)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (344)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (342)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (340)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module Paper2DEditor (338)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module SoundFields (336)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module SignificanceManager (334)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (332)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module ActorSequence (330)
+[2022.05.02-20.06.49:975][698]LogModuleManager: Shutting down and abandoning module UdpMessaging (328)
+[2022.05.02-20.06.50:076][698]LogModuleManager: Shutting down and abandoning module TcpMessaging (326)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (324)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (322)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (320)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (318)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (316)
+[2022.05.02-20.06.50:176][698]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (314)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (312)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (308)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapController (306)
+[2022.05.02-20.06.50:176][698]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (304)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module MagicLeapAR (302)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module AugmentedReality (301)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (298)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (296)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module FacialAnimation (294)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module DataValidation (292)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (290)
+[2022.05.02-20.06.50:176][698]LogModuleManager: Shutting down and abandoning module LevelEditor (289)
+[2022.05.02-20.06.50:177][698]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (288)
+[2022.05.02-20.06.50:177][698]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (286)
+[2022.05.02-20.06.50:177][698]LogModuleManager: Shutting down and abandoning module MainFrame (284)
+[2022.05.02-20.06.50:177][698]LogModuleManager: Shutting down and abandoning module HotReload (283)
+[2022.05.02-20.06.50:178][698]LogModuleManager: Shutting down and abandoning module ToolMenus (279)
+[2022.05.02-20.06.50:178][698]LogModuleManager: Shutting down and abandoning module TreeMap (277)
+[2022.05.02-20.06.50:178][698]LogModuleManager: Shutting down and abandoning module AnimationSharing (274)
+[2022.05.02-20.06.50:178][698]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (272)
+[2022.05.02-20.06.50:178][698]LogModuleManager: Shutting down and abandoning module Paper2D (270)
+[2022.05.02-20.06.50:178][698]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (268)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (266)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (264)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module PacketHandler (262)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (260)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (258)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module MediaAssets (256)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module Overlay (254)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module OverlayEditor (253)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module VREditor (250)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module StringTableEditor (248)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (246)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (244)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module FunctionalTesting (242)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (240)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module UMG (238)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module UMGEditor (237)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module MessageLog (235)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module MaterialEditor (233)
+[2022.05.02-20.06.50:179][698]LogModuleManager: Shutting down and abandoning module ContentBrowser (232)
+[2022.05.02-20.06.50:180][698]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (231)
+[2022.05.02-20.06.50:180][698]LogModuleManager: Shutting down and abandoning module SlateReflector (224)
+[2022.05.02-20.06.50:180][698]LogModuleManager: Shutting down and abandoning module Slate (222)
+[2022.05.02-20.06.50:180][698]LogModuleManager: Shutting down and abandoning module SlateCore (220)
+[2022.05.02-20.06.50:180][698]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (218)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module UnrealEd (216)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module MRMesh (214)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (212)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (210)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module XAudio2 (208)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module Networking (206)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module Core (204)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module MovieSceneTools (202)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module CurveEditor (201)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module Sequencer (199)
+[2022.05.02-20.06.50:181][698]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module KismetCompiler (194)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module MeshBuilder (192)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module MeshUtilities (190)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (189)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (188)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (187)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (185)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (183)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (181)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module MaterialBaking (177)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (172)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module DerivedDataCache (170)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module XGEController (168)
+[2022.05.02-20.06.50:182][698]LogXGEController: Cleaning working directory: C:/Users/Alyx/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module TargetPlatform (166)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (165)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (163)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (161)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (159)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (157)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (155)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (153)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (151)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (149)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (147)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module ImageWrapper (146)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (143)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (141)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (139)
+[2022.05.02-20.06.50:182][698]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (137)
+[2022.05.02-20.06.50:183][698]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (135)
+[2022.05.02-20.06.50:183][698]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (133)
+[2022.05.02-20.06.50:183][698]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (131)
+[2022.05.02-20.06.50:183][698]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (129)
+[2022.05.02-20.06.50:183][698]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (127)
+[2022.05.02-20.06.50:183][698]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2022.05.02-20.06.50:184][698]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (123)
+[2022.05.02-20.06.50:184][698]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (121)
+[2022.05.02-20.06.50:184][698]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (119)
+[2022.05.02-20.06.50:185][698]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2022.05.02-20.06.50:185][698]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (115)
+[2022.05.02-20.06.50:185][698]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2022.05.02-20.06.50:185][698]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2022.05.02-20.06.50:185][698]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2022.05.02-20.06.50:185][698]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2022.05.02-20.06.50:186][698]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
+[2022.05.02-20.06.50:192][698]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (103)
+[2022.05.02-20.06.50:192][698]LogModuleManager: Shutting down and abandoning module InputCore (100)
+[2022.05.02-20.06.50:192][698]LogModuleManager: Shutting down and abandoning module Settings (98)
+[2022.05.02-20.06.50:192][698]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2022.05.02-20.06.50:192][698]LogModuleManager: Shutting down and abandoning module PhysXCooking (94)
+[2022.05.02-20.06.50:192][698]LogModuleManager: Shutting down and abandoning module ChaosSolvers (92)
+[2022.05.02-20.06.50:192][698]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (91)
+[2022.05.02-20.06.50:192][698]LogModuleManager: Shutting down and abandoning module Chaos (88)
+[2022.05.02-20.06.50:192][698]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (86)
+[2022.05.02-20.06.50:193][698]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (85)
+[2022.05.02-20.06.50:193][698]LogModuleManager: Shutting down and abandoning module AVEncoder (84)
+[2022.05.02-20.06.50:193][698]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2022.05.02-20.06.50:193][698]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2022.05.02-20.06.50:193][698]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2022.05.02-20.06.50:193][698]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2022.05.02-20.06.50:195][698]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2022.05.02-20.06.50:195][698]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2022.05.02-20.06.50:198][698]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2022.05.02-20.06.50:198][698]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.05.02-20.06.50:198][698]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4B915447-465C-1ADF-48F5-41A08BBDE96F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=6a2fd35941f6065e0ac4a182eb9f77dc%7C0f0fb6c7a3cb487bae4e2a167d642cb5%7C039d0d11-4d15-408e-843d-d46630f2e7d8&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2022.05.02-20.06.50:213][698]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2022.05.02-20.06.50:216][698]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2022.05.02-20.06.50:218][698]LogModuleManager: Shutting down and abandoning module Media (57)
+[2022.05.02-20.06.50:220][698]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2022.05.02-20.06.50:220][698]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2022.05.02-20.06.50:220][698]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2022.05.02-20.06.50:221][698]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2022.05.02-20.06.50:221][698]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2022.05.02-20.06.50:221][698]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.05.02-20.06.50:221][698]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.05.02-20.06.50:221][698]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.05.02-20.06.50:221][698]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.05.02-20.06.50:221][698]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2022.05.02-20.06.50:221][698]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2022.05.02-20.06.50:222][698]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.05.02-20.06.50:222][698]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.05.02-20.06.50:222][698]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.05.02-20.06.50:222][698]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.05.02-20.06.50:224][698]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.05.02-20.06.50:224][698]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.05.02-20.06.50:226][698]LogD3D11RHI: Shutdown
+[2022.05.02-20.06.50:226][698]LogD3D11RHI: CleanupD3DDevice
+[2022.05.02-20.06.50:248][698]LogExit: Exiting.
+[2022.05.02-20.06.50:282][698]Log file closed, 05/02/22 22:06:50
