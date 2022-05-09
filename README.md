@@ -5,6 +5,7 @@ Fonctionnalités développés :
 - Discord Rich Presence
 - Système de traduction et possibilité de changer la langue dans les paramètres
 - Accès aux sites [Abandonware France](https://abandonware-france.org/) et [Abandonware Forums](https://abandonware-forums.org/) dans le launcher
+- Logiciels importants pour le retro-gaming affichés dans la bibliothèque
 
 Fonctionnalités en cours de développement :
 - Accès aux téléchargements directement dans le launcher
