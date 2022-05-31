@@ -19,6 +19,6 @@ Fonctionnalités en cours de développement :
 Le code-source est aussi disponible pour personnaliser votre launcher. Pour l'utiliser, vous devez posséder le plugin [Achievement System](https://www.unrealengine.com/marketplace/en-US/product/achievement-system-blueprint-compatible) et le plugin [Discord Rich Presence](https://www.unrealengine.com/marketplace/en-US/product/discord-rich-presence). Si vous ne voulez pas acheter le plugin Discord Rich Presence, merci de me contacter sur Discord via le serveur de [Abandonware France](https://discord.com/invite/uqBRxYs) (Alyx.#9833). Après avoir installé le plugin Discord Rich Presence, téléchargez le [Discord Game SDK](https://discord.com/developers/docs/game-sdk/sdk-starter-guide), décompressez le dossier puis trouvez dans `lib\x86_64\` le fichier `discord_game_sdk.dll` que vous déplacerez ensuite dans le dossier `ABWFR_Launcher\Binaries\Win64`. Vous devrez faire de même sur le launcher exporté.
 
 
-LTF Launcher est développé sous Unreal Engine 4.25.4
+LTF Launcher est développé sous Unreal Engine 4.26.2
 
 Rejoignez [Abandonware France](https://www.abandonware-france.org/) et [Abandonware Forums](https://www.abandonware-forums.org/)
