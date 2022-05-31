@@ -9,8 +9,8 @@ Fonctionnalités développés :
 
 Fonctionnalités en cours de développement :
 - Accès aux téléchargements directement dans le launcher
-- Mises a jour automatiques
-- Accès aux forums avec son compte Abandonware Forums
+- Mises à jour automatiques
+- Accès au forum avec son compte Abandonware Forums
 - Bibliothèque inclus pour gérer ses jeux
 - Possibilité d'ajouter d'autres jeux se lançant avec un .bat ou un .exe
 - Système de succès et de comparaison de temps de jeu si un compte Abandonware France est lié
