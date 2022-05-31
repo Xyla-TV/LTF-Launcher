@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="ad.size" content="width=120,height=600">
+        
+        <title></title>
+        <style>:root{--retina-src:''}html{box-sizing:border-box;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}body,html{background:transparent;line-height:1.4;margin:0;padding:0}*{box-sizing:border-box}#bs{overflow:hidden}#bs .bs-helper{height:100%;left:0;top:0;width:100%;z-index:-1}.background{background:50% 50% no-repeat;background-size:cover}.background-stretch{background-size:100% 100%}.background-crop{background:no-repeat 50% 50%;background-size:cover}
+.background-mask{background-repeat:no-repeat;background-size:auto auto}.background-aspect{background:no-repeat 50% 50%;background-size:contain}.background-tile{background-repeat:repeat}.slide{height:100%;left:0;overflow:hidden;position:absolute;top:0;transition:none;width:100%;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-perspective-origin:center;perspective-origin:center}.slide>.slide-hover{display:none;height:100%;left:0;position:absolute;top:0;width:100%}.slide>.eff-helper{-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.slide.buildin>.slide-hover,.slide.buildout>.slide-hover{display:block}.element{position:absolute;perspective-origin:center;-webkit-perspective-origin:center}.element>.eff-helper{backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0)}@media all and (-ms-high-contrast:none){.element{transform-style:preserve-3d;-webkit-transform-style:preserve-3d}.element>.eff-helper{backface-visibility:visible;-webkit-backface-visibility:visible;transform:none;-webkit-transform:none}
+}@supports(-ms-ime-align:auto){.element{-webkit-transform-style:flat;transform-style:flat}}.element .text{line-height:1.4;margin:0;white-space:pre-line;word-break:normal;word-wrap:break-word;font-variant-ligatures:none}.element .shape{height:100%;width:100%}.element .shape.circle{border-radius:50%}.element .embed{height:100%;overflow:hidden;width:100%}.element .svg,.element .svg img{width:100%;height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;transform:perspective(1px) translateZ(0)}
+.element .menu{-webkit-align-content:center;align-content:center;-webkit-flex-wrap:nowrap;flex-wrap:nowrap;overflow:hidden;white-space:nowrap;display:flex}.element .menu label{cursor:pointer;display:inline-block;flex:1 1 auto;text-align:center;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.element .menu label span{display:inline-block;position:relative;white-space:nowrap}.element .menu.ie9{display:table;table-layout:auto}
+.element .menu.ie9 label{display:table-cell;padding:0 5px}.bs-btn{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;overflow:hidden;border-radius:.01px}.bs-btn label{cursor:pointer;float:left;margin:0;position:relative;text-align:center;width:100%;top:50%;transform:translateY(-50%);white-space:nowrap}.bs-btn.no-hand-cursor label,.bs-btn.no-hand-cursor div{cursor:default}.bs-image{height:100%;width:100%}.bs-clipart,.bs-clipart-blur{height:100%;position:relative;width:100%}
+.bs-clipart svg{position:absolute}.image-stretch{background-size:100% 100%}.image-crop{background:no-repeat 50% 50%;background-size:cover}.image-mask{background-repeat:no-repeat;background-size:auto auto}.image-aspect{background:no-repeat 50% 50%;background-size:contain}.image-tile{background-repeat:repeat}.eff-helper{width:100%;height:100%}.action-container{width:100%;height:100%;display:block;text-decoration:none}.bs-video{-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;outline:0}
+.hide-media-controls::-webkit-media-controls{display:none}@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.retina{background-image:var(--retina-src) !important}}</style>
+                                  
+        <script src="147f43f5ac0f1d7c6a165ae86497c29f.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            window.bsOpenURL = function (url, target) {        if (url && url.length > 0) {            window.open(url, target);        }    }
+            
+        </script>
+        <script type="text/javascript">
+            var clickTag = "https://www.maldives.holidayinnresorts.com/en/hotel-offers/stay-longer-save/?utm_source=DV360&utm_medium=cpm&utm_campaign=Kandooma_EME"
+            window.clickTagVars = {"clickTag":"https://www.maldives.holidayinnresorts.com/en/hotel-offers/stay-longer-save/?utm_source=DV360&utm_medium=cpm&utm_campaign=Kandooma_EME"};
+            window.mediaPlayTimeout = [];
+            window.goToURLWithoutBSURL = false;
+            window.bannerURL = "clickTag";
+            window.bannerConfig = {"startSlide":0,"noAnimation":false,"preview":false,"printScreen":false,"showOnlyOneSlide":false,"video":false,"download":true,"showWatermark":false,"watermark":{"watermarkX1":"https://d2gla4g2ia06u2.cloudfront.net/public/images/shutterstock-watermark-1x.png","watermarkX2":"https://d2gla4g2ia06u2.cloudfront.net/public/images/shutterstock-watermark-2x.png","size":506,"source":"shutterstock","show":false},"sqsStatsVanityUrl":"https://live-tag.creatopy.net/520783917495/stats-queue","networkId":7,"env":"live","feedUrl":"https://d2gla4g2ia06u2.cloudfront.net/assets/feed/","fontLocalPath":"fonts/","imgLocalPath":"media/"};
+            window.bannerJson = {"banner":{"properties":{"width":120,"height":600,"loop":false,"loopCount":0,"bannerUrl":"clickTag","urlTarget":"_blank","useHandCursor":true,"backgroundColor":{"borderColor":"#3d3d3d","scolor":"rgba(255,255,255,1)","type":"solid","gradColors":null,"rgradPos":null,"backgroundRotation":null,"contentScale":100,"scaleMode":"crop","useBorder":false,"horizontalAlign":"center","verticalAlign":"middle","contentOffsetX":50,"contentOffsetY":50,"originalWidth":0,"originalHeight":0,"url":null,"hqUrl":null,"source":null,"hash":null,"licensing":false},"useAsClickTag":true,"retina":false,"fallbackImage":false},"elements":[{"properties":{"duration":4,"id":1,"bannersetElementId":1,"stopSlide":false,"guidelines":{"v":[],"h":[]}},"type":"slide","elements":[{"type":"layer","layerType":"image","properties":{"id":44,"bannersetElementId":44,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"alpha","crosstype":"hide","direction":"l2r","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0,"tween":"Strong","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":100,"blurAmount":0,"zoom":10,"preset":"basic"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"0x1o23","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"8a5d1647-97a8-4be7-9762-ecfd16a56d5b","licensing":false,"localUrl":"6091cf1ff5be2eb0c5dd1cd30adfe534.jpg","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}},{"type":"layer","layerType":"image","properties":{"id":45,"bannersetElementId":45,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"slide","crosstype":"hide","direction":"t2b","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0.2,"tween":"Quart","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":50,"blurAmount":0,"zoom":10,"preset":"slideDown"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"0x1o43","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"c86444af-cda2-4142-8ab3-06b6234c2a17","licensing":false,"localUrl":"a13cacbff05db20aa142123ceeb2f46a.png","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}},{"type":"layer","layerType":"image","properties":{"id":46,"bannersetElementId":46,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"slide","crosstype":"hide","direction":"b2t","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0.6,"tween":"Quart","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":50,"blurAmount":0,"zoom":10,"preset":"slideUp"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"n3769q","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"c02b7507-4bd3-4274-a7d0-01ba8912b2a9","licensing":false,"localUrl":"5661f2acc70717630ec6c64994913f02.png","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}}]},{"properties":{"duration":4,"id":5,"bannersetElementId":5,"stopSlide":false,"guidelines":{"v":[],"h":[]}},"type":"slide","elements":[{"type":"layer","layerType":"image","properties":{"id":47,"bannersetElementId":47,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"alpha","crosstype":"hide","direction":"l2r","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0,"tween":"Quad","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":100,"blurAmount":0,"zoom":10,"preset":"fade"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"ojn9y7","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"763e5a47-a300-4d43-974a-2f62e9f1e8fe","licensing":false,"localUrl":"c31341551fe7c9126643c0be54d6d6f1.jpg","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}},{"type":"layer","layerType":"image","properties":{"id":48,"bannersetElementId":48,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"6rqyjm","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"16ae5606-6c09-48b9-99a5-a3a273aa10ad","licensing":false,"localUrl":"a13cacbff05db20aa142123ceeb2f46a.png","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}},{"type":"layer","layerType":"image","properties":{"id":49,"bannersetElementId":49,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"slide","crosstype":"hide","direction":"b2t","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0.6,"tween":"Quart","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":50,"blurAmount":0,"zoom":10,"preset":"slideUp"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"9xrz7y","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"43dfe98d-3905-4d0b-82b3-1aa999cbe5da","licensing":false,"localUrl":"16b0cffcb56595e9750d53640f654e60.png","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}}]},{"properties":{"duration":4,"id":9,"bannersetElementId":9,"stopSlide":false,"guidelines":{"v":[],"h":[]}},"type":"slide","elements":[{"type":"layer","layerType":"image","properties":{"id":51,"bannersetElementId":50,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"alpha","crosstype":"hide","direction":"l2r","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0,"tween":"Quad","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":100,"blurAmount":0,"zoom":10,"preset":"fade"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"j4j138","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"1feeac5d-9b76-4784-a674-7018fd9806b0","licensing":false,"localUrl":"2479aad614d2654ad70cbb867f041529.jpg","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}},{"type":"layer","layerType":"image","properties":{"id":52,"bannersetElementId":51,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"2rm39x","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"8c4f8915-d288-40c7-90df-8507adf65765","licensing":false,"localUrl":"a13cacbff05db20aa142123ceeb2f46a.png","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}},{"type":"layer","layerType":"image","properties":{"id":53,"bannersetElementId":52,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"slide","crosstype":"hide","direction":"b2t","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0.6,"tween":"Quart","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":50,"blurAmount":0,"zoom":10,"preset":"slideUp"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"zj6rw2","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"c78e1d1a-b50f-4177-8b54-9bb02a2cad8f","licensing":false,"localUrl":"7a1589146916e9ad6381629ebe64efbc.png","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}}]},{"properties":{"duration":4,"id":13,"bannersetElementId":13,"stopSlide":false,"guidelines":{"v":[],"h":[]}},"type":"slide","elements":[{"type":"layer","layerType":"image","properties":{"id":54,"bannersetElementId":53,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"alpha","crosstype":"hide","direction":"l2r","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0,"tween":"Quad","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":100,"blurAmount":0,"zoom":10,"preset":"fade"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"0x1o63","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"8d301f4c-237e-4c46-b5b3-adcfbeeb395e","licensing":false,"localUrl":"1c0f7cbeb4a8c268468654bb0a182241.jpg","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}},{"type":"layer","layerType":"image","properties":{"id":55,"bannersetElementId":54,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"wqk304","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"864da197-2b64-4d7d-bab2-007e71c71e04","licensing":false,"localUrl":"a13cacbff05db20aa142123ceeb2f46a.png","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}},{"type":"layer","layerType":"image","properties":{"id":56,"bannersetElementId":55,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"slide","crosstype":"hide","direction":"b2t","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0.6,"tween":"Quart","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":50,"blurAmount":0,"zoom":10,"preset":"slideUp"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"1m8grq","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"6ae54165-75c5-48db-9062-4f03f5e539a7","licensing":false,"localUrl":"5ef35ce940525ae6def6ff345530c045.png","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}},{"type":"layer","layerType":"image","properties":{"id":57,"bannersetElementId":56,"elementCategory":null,"opacity":100,"rotation":0,"x":0,"y":0,"width":120,"height":600,"buildIn":{"type":"slide","crosstype":"hide","direction":"b2t","duration":1,"wordsDuration":0.5,"wordsAppearOrder":"l2r","delay":0.9,"tween":"Quart","ease":"easeOut","slidePosX":50,"slidePosY":0,"alphaOffset":0,"slideOffset":50,"blurAmount":0,"zoom":10,"preset":"slideUp"},"actions":[],"locked":false,"lockedProperties":[],"visible":true,"group":null,"url":"g9yz1w","scaleMode":"crop","horizontalAlign":"center","verticalAlign":"middle","contentScale":100,"contentOffsetX":50,"contentOffsetY":50,"originalWidth":120,"originalHeight":600,"cropData":null,"source":"myImages","hash":"6bc31cab-7fff-42f7-980b-5ef0ba47014e","licensing":false,"localUrl":"560b8e0032eb2fcc3176496d876b67ca.png","backupUrl":"d41d8cd98f00b204e9800998ecf8427e"}}]}],"resources":{}},"hash":"xgrkjk","userId":765241};
+            window.urlTarget = "_blank";
+        </script>
+        
+        
+    <script type="text/javascript">
+    
+  (function() {
+    var MAX_URL_PARAM_LENGTH = 34;
+    var CLICK_X_URL_KEY = 'nx';
+    var CLICK_Y_URL_KEY = 'ny';
+    var CREATIVE_DIMENSIONS_KEY = 'dim';
+    var AD_URL_PARAM = '&adurl=';
+
+    var relegateNavigation = '';
+    var urlParamMap = {};
+
+    urlParamMap[CLICK_X_URL_KEY] = null;
+    urlParamMap[CLICK_Y_URL_KEY] = null;
+    urlParamMap[CREATIVE_DIMENSIONS_KEY] = null;
+
+    var handleClickTagMessage = function(e) {
+      try {
+        var eventData = JSON.parse(e.data);
+      } catch (err) {
+        return;
+      }
+      if (eventData.isInitClickTag) {
+        if (eventData.clickTags) {
+          for (var i = 0; i < eventData.clickTags.length; i++) {
+            var clkTag = eventData.clickTags[i];
+            window[clkTag.name] = clkTag.url;
+          }
+        } else if (eventData.clickTag) {
+          window.clickTag = eventData.clickTag;
+        }
+        relegateNavigation = eventData.relegateNavigation;
+      }
+    };
+
+    var storeClickCoordinates = function(e) {
+      urlParamMap[CLICK_X_URL_KEY] = Math.round(e.clientX);
+      urlParamMap[CLICK_Y_URL_KEY] = Math.round(e.clientY);
+    };
+
+    var getCreativeDimensions = function() {
+      return window.innerWidth + 'x' + window.innerHeight;
+    }
+
+    var getExitClickParams = function(e) {
+      urlParamMap[CREATIVE_DIMENSIONS_KEY] = getCreativeDimensions();
+
+      var exitParams = '';
+      for (var key in urlParamMap) {
+        exitParams += '&' + key + '=';
+        if (urlParamMap[key] !== null) {
+          exitParams += urlParamMap[key];
+        }
+      }
+      return exitParams;
+    }
+
+    var appendExitClickParams = function(url) {
+      var adUrlIndex = url.toLowerCase().indexOf(AD_URL_PARAM);
+      var paramsToBeAdded = getExitClickParams();
+      if (adUrlIndex > -1 && paramsToBeAdded.length <= MAX_URL_PARAM_LENGTH) {
+        url = url.substr(0, adUrlIndex) + paramsToBeAdded +
+          url.substr(adUrlIndex);
+      };
+      return url;
+    };
+
+    if (open.call) {
+      window.open = function(open) {
+        return function(url, name, features) {
+          url = appendExitClickParams(url);
+          if (relegateNavigation === 'parent') {
+            var message = {'clickTag': url, 'isPostClickTag': true};
+            parent.postMessage(JSON.stringify(message), '*');
+          } else {
+            var args = [url, name];
+            if (features) {
+              args.push(features);
+            }
+            open.apply(window, args);
+          }
+        };
+      }(window.open);
+    }
+
+    if (window.addEventListener) {
+      window.addEventListener(
+          'message', handleClickTagMessage, false);
+      window.addEventListener('mousedown', storeClickCoordinates, true);
+    } else {
+      window.attachEvent('onmessage', handleClickTagMessage);
+    }
+  })();
+    
+  </script></head>
+    <body><div id="bs"></div></body>
+</html>

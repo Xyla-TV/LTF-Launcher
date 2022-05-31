@@ -1,0 +1,2 @@
+G:\Unreal Projects\ABWFR_Launcher\Saved\Cooked\WindowsNoEditor\ABWFR_Launcher\Content\HUD\UI_Update
+G:\Unreal Projects\ABWFR_Launcher\Saved\Cooked\WindowsNoEditor\ABWFR_Launcher\Content\Maps\Map_Update
