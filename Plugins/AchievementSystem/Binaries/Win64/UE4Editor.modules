@@ -1,0 +1,8 @@
+{
+	"BuildId": "14830424",
+	"Modules": 
+	{
+		"AchievementSystem": "UE4Editor-AchievementSystem.dll",
+		"AchievementSystemEditor": "UE4Editor-AchievementSystemEditor.dll"
+	}
+}
