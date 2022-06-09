@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Alyx\\Documents\\Unreal Projects\\LTF-Launcher\\Plugins\\AchievementSystem\\Source\\AchievementSystem\\AchievementSystem.Build.cs",
+		"C:\\Users\\Alyx\\Documents\\Unreal Projects\\LTF-Launcher\\Plugins\\AchievementSystem\\Source\\AchievementSystemEditor\\AchievementSystemEditor.build.cs",
+		"C:\\Users\\Alyx\\Documents\\Unreal Projects\\LTF-Launcher\\Intermediate\\Source\\ABWFR_Launcher.Build.cs",
+		"C:\\Users\\Alyx\\Documents\\Unreal Projects\\LTF-Launcher\\Intermediate\\Source\\ABWFR_Launcher.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
