@@ -1,0 +1,2 @@
+C:\Users\Alyx\Documents\Unreal Projects\LTF-Launcher\Saved\Cooked\WindowsNoEditor\ABWFR_Launcher\Content\HUD\UI_Update
+C:\Users\Alyx\Documents\Unreal Projects\LTF-Launcher\Saved\Cooked\WindowsNoEditor\ABWFR_Launcher\Content\Maps\Map_Update
