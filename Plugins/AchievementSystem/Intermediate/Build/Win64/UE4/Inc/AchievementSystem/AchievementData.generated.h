@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ACHIEVEMENTSYSTEM_AchievementData_generated_h
 
-#define HostProject_Plugins_AchievementSystem_Source_AchievementSystem_Public_AchievementData_h_11_GENERATED_BODY \
+#define LTF_Launcher_Plugins_AchievementSystem_Source_AchievementSystem_Public_AchievementData_h_11_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAchievementData_Statics; \
 	ACHIEVEMENTSYSTEM_API static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> ACHIEVEMENTSYSTEM_API UScriptStruct* StaticStruct<struct FAchievementData>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_AchievementSystem_Source_AchievementSystem_Public_AchievementData_h
+#define CURRENT_FILE_ID LTF_Launcher_Plugins_AchievementSystem_Source_AchievementSystem_Public_AchievementData_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
