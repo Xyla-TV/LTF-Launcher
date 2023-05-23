@@ -6,7 +6,7 @@
 
 <br>
 
-### LTF Launcher versions
+<h2 align="center">LTF Launcher versions</h2>
 
 <br>
 
