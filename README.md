@@ -6,7 +6,7 @@
 
 <br>
 
-### Abandonware France Launcher versions
+### LTF Launcher versions
 
 <br>
 
