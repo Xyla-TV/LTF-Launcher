@@ -6,7 +6,7 @@
 
 <br>
 
-### Number of games versions
+### Abandonware France Launcher versions
 
 <br>
 
