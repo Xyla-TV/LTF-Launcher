@@ -1,22 +1,36 @@
 #include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
+#include <Windows.h>
+#include <iostream>
+
+#include "variables.hpp"
+
+#include "import.cpp"
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    import();
+    importProperty();
+
+    window.create(sf::VideoMode(1280, 720), "Abandonware France Launcher", sf::Style::Default);
+    window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
+    window.setFramerateLimit(30);
 
     while (window.isOpen())
     {
         sf::Event event;
         while (window.pollEvent(event))
         {
-            if (event.type == sf::Event::Closed)
+            switch (event.type)
+            {
+            case sf::Event::Closed:
                 window.close();
+                break;
+            }
         }
 
         window.clear();
-        window.draw(shape);
+        window.draw(backgroundSpriteNavBar);
         window.display();
     }
 
