@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
-#include <Windows.h>
 #include <iostream>
+#include <Windows.h>
 
 #include "variables.hpp"
 
