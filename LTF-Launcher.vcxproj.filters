@@ -23,13 +23,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="variables.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="import.cpp">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

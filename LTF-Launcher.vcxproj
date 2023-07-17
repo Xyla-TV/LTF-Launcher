@@ -148,6 +148,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="config.hpp" />
     <ClInclude Include="import.cpp" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="variables.hpp" />

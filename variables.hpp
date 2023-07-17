@@ -7,5 +7,8 @@ sf::RenderWindow window;
 auto icon = sf::Image{};
 sf::Texture backgroundTextureNavBar;
 sf::Sprite backgroundSpriteNavBar;
+sf::Font RobotoRegular;
+sf::Font RobotoCondensed;
+sf::Text versionText;
 
 #endif
