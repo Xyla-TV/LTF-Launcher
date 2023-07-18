@@ -28,11 +28,60 @@ int main()
             case sf::Event::Closed:
                 window.close();
                 break;
+            case sf::Event::MouseMoved:
+                {
+                    sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+                    sf::Vector2f mousePosF(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y));
+
+                    bool exitHover = false;
+                    bool soundHover = false;
+
+                    if (exitBackgroundSprite.getGlobalBounds().contains(mousePosF))
+                    {
+                        exitHover = true;
+                    }
+
+                    else if (soundBackgroundSprite.getGlobalBounds().contains(mousePosF))
+                    {
+                        soundHover = true;
+                    }
+
+                    if (exitHover)
+                    {
+                        exitBackgroundSprite.setTexture(smallButtonHoveredTexture);
+                    }
+                    else
+                    {
+                        exitBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
+                    }
+
+                    if (soundHover)
+                    {
+                        soundBackgroundSprite.setTexture(smallButtonHoveredTexture);
+                    }
+                    else
+                    {
+                        soundBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
+                    }
+
+                    if (exitHover || soundHover)
+                    {
+                        window.setMouseCursor(handCursor);
+                    }
+                    else
+                    {
+                        window.setMouseCursor(arrowCursor);
+                    }
+                }
             }
         }
 
         window.clear();
         window.draw(backgroundSpriteNavBar);
+        window.draw(exitBackgroundSprite);
+        window.draw(soundBackgroundSprite);
+        window.draw(exitSprite);
+        window.draw(soundSprite);
         window.draw(versionText);
         window.display();
     }

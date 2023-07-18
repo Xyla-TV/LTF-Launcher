@@ -17,16 +17,6 @@ bool readConfigFile(const std::string& filename, configData& config) {
             config.launcher_version = line.substr(line.find('=') + 1);
             break;
         }
-
-        if (line.find("games_number=") == 0) {
-            try {
-                config.games_number = std::stof(line.substr(line.find('=') + 1));
-            }
-            catch (const std::exception& e) {
-                std::cerr << "Erreur de conversion en nombre à virgule flottante : " << e.what() << std::endl;
-            }
-            break;
-        }
     }
 
     file.close();
@@ -37,7 +27,6 @@ int mainConfig() {
     configData config;
     if (readConfigFile("config.cfg", config)) {
         std::cout << "Launcher version: " << config.launcher_version << std::endl;
-        std::cout << "Games number: " << config.games_number << std::endl;
     }
 
     return 0;
