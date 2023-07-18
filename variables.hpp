@@ -16,12 +16,14 @@ sf::Texture smallButtonUnhoveredTexture;
 sf::Texture exitTexture;
 sf::Texture soundonTexture;
 sf::Texture soundoffTexture;
+sf::Texture bundleTexture;
 
 sf::Sprite backgroundSpriteNavBar;
 sf::Sprite exitBackgroundSprite;
 sf::Sprite soundBackgroundSprite;
 sf::Sprite exitSprite;
 sf::Sprite soundSprite;
+sf::Sprite bundleSprite;
 
 sf::Font RobotoRegular;
 sf::Font RobotoCondensed;

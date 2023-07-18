@@ -77,12 +77,14 @@ int main()
         }
 
         window.clear();
+
         window.draw(backgroundSpriteNavBar);
         window.draw(exitBackgroundSprite);
         window.draw(soundBackgroundSprite);
         window.draw(exitSprite);
         window.draw(soundSprite);
         window.draw(versionText);
+
         window.display();
     }
 
