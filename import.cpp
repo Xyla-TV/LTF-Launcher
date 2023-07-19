@@ -50,6 +50,11 @@ int import()
 		std::cout << "Error : can't load soundon.png" << std::endl;
 	}
 
+	if (!bundleTexture.loadFromFile("LTF/imgs/bundle/bundle.png"))
+	{
+		std::cout << "Error : can't load bundle.png" << std::endl;
+	}
+
 	return 0;
 }
 
@@ -59,6 +64,9 @@ int importProperty()
 
 	backgroundSpriteNavBar.setTexture(backgroundTextureNavBar);
 	backgroundSpriteNavBar.setPosition(0, 0);
+
+	bundleSprite.setTexture(bundleTexture);
+	bundleSprite.setPosition(40, 30);
 
 	exitBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
 	exitBackgroundSprite.setPosition(0, 660);
