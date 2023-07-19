@@ -145,14 +145,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="config.cpp" />
-    <ClCompile Include="discord_manager.cpp" />
     <ClCompile Include="discord_rich_presence.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.hpp" />
-    <ClInclude Include="discord_manager.h" />
-    <ClInclude Include="discord_rich_presence.h" />
+    <ClInclude Include="discord_rich_presence.hpp" />
     <ClInclude Include="import.cpp" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="variables.hpp" />

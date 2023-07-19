@@ -24,9 +24,6 @@
     <ClCompile Include="discord_rich_presence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="discord_manager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="import.cpp">
@@ -41,10 +38,7 @@
     <ClInclude Include="variables.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="discord_rich_presence.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="discord_manager.h">
+    <ClInclude Include="discord_rich_presence.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

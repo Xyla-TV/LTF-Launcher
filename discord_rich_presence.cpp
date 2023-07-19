@@ -1,29 +1,24 @@
-#include "discord_rich_presence.h"
-#include <Discord/discord_game_sdk.h>
+#include "discord_rich_presence.hpp"
+#include <Discord/discord.h>
 
-static DiscordRichPresence presence;
-static DiscordEventHandlers handlers;
+// Définir ici les autres fonctions membres nécessaires
 
-void InitializeDiscordRichPresence() {
+DiscordRichPresence::DiscordRichPresence()
+{
+    // Initialiser ici les autres membres de la classe si nécessaire
+}
+
+void DiscordRichPresence::Initialize(const unsigned long long applicationId)
+{
     DiscordCreateParams params;
     DiscordCreateParamsSetDefault(&params);
 
-    params.client_id = "1131191350725988392";
+    params.client_id = applicationId;
 
-    DiscordInitialize(&params, &handlers, 1, NULL);
+    Discord_Initialize(&params, nullptr, 0);
 }
 
-void UpdateDiscordRichPresence(const std::string& state, const std::string& details, const std::string& largeImageKey) {
-    DiscordRichPresence newPresence;
-    DiscordRichPresenceClear(&newPresence);
-
-    newPresence.state = state.c_str();
-    newPresence.details = details.c_str();
-    newPresence.large_image_key = largeImageKey.c_str();
-
-    DiscordUpdatePresence(&newPresence);
-}
-
-void ShutdownDiscordRichPresence() {
-    DiscordShutdown();
+void DiscordRichPresence::Run()
+{
+    // Le code original de discord_rich_presence.cpp se trouve ici
 }

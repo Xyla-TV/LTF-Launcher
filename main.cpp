@@ -5,7 +5,8 @@
 
 #include "variables.hpp"
 #include "config.hpp"
-#include "discord_manager.h"
+
+#include "discord_rich_presence.hpp"
 
 #include "import.cpp"
 
@@ -15,8 +16,11 @@ int main()
     importProperty();
     mainConfig();
 
-    InitDiscord();
-    SetDiscordActivity();
+    DiscordRichPresence discordPresence;
+
+    discordPresence.Initialize(1131191350725988392);
+
+    discordPresence.Run();
 
     window.create(sf::VideoMode(1280, 720), "Abandonware France Launcher", sf::Style::Default);
     window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
@@ -30,7 +34,6 @@ int main()
             switch (event.type)
             {
             case sf::Event::Closed:
-                CleanupDiscord();
                 window.close();
                 break;
             case sf::Event::MouseMoved:
