@@ -2,11 +2,10 @@
 #include <SFML/Window.hpp>
 #include <iostream>
 #include <Windows.h>
+#include <Discord/discord.h>
 
 #include "variables.hpp"
 #include "config.hpp"
-
-#include "discord_rich_presence.hpp"
 
 #include "import.cpp"
 
@@ -15,12 +14,6 @@ int main()
     import();
     importProperty();
     mainConfig();
-
-    DiscordRichPresence discordPresence;
-
-    discordPresence.Initialize(1131191350725988392);
-
-    discordPresence.Run();
 
     window.create(sf::VideoMode(1280, 720), "Abandonware France Launcher", sf::Style::Default);
     window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
@@ -37,50 +30,49 @@ int main()
                 window.close();
                 break;
             case sf::Event::MouseMoved:
+            {
+                sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+                sf::Vector2f mousePosF(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y));
+
+                bool exitHover = false;
+                bool soundHover = false;
+
+                if (exitBackgroundSprite.getGlobalBounds().contains(mousePosF))
                 {
-                    sf::Vector2i mousePos = sf::Mouse::getPosition(window);
-                    sf::Vector2f mousePosF(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y));
-
-                    bool exitHover = false;
-                    bool soundHover = false;
-
-                    if (exitBackgroundSprite.getGlobalBounds().contains(mousePosF))
-                    {
-                        exitHover = true;
-                    }
-
-                    else if (soundBackgroundSprite.getGlobalBounds().contains(mousePosF))
-                    {
-                        soundHover = true;
-                    }
-
-                    if (exitHover)
-                    {
-                        exitBackgroundSprite.setTexture(smallButtonHoveredTexture);
-                    }
-                    else
-                    {
-                        exitBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
-                    }
-
-                    if (soundHover)
-                    {
-                        soundBackgroundSprite.setTexture(smallButtonHoveredTexture);
-                    }
-                    else
-                    {
-                        soundBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
-                    }
-
-                    if (exitHover || soundHover)
-                    {
-                        window.setMouseCursor(handCursor);
-                    }
-                    else
-                    {
-                        window.setMouseCursor(arrowCursor);
-                    }
+                    exitHover = true;
                 }
+                else if (soundBackgroundSprite.getGlobalBounds().contains(mousePosF))
+                {
+                    soundHover = true;
+                }
+
+                if (exitHover)
+                {
+                    exitBackgroundSprite.setTexture(smallButtonHoveredTexture);
+                }
+                else
+                {
+                    exitBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
+                }
+
+                if (soundHover)
+                {
+                    soundBackgroundSprite.setTexture(smallButtonHoveredTexture);
+                }
+                else
+                {
+                    soundBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
+                }
+
+                if (exitHover || soundHover)
+                {
+                    window.setMouseCursor(handCursor);
+                }
+                else
+                {
+                    window.setMouseCursor(arrowCursor);
+                }
+            }
             }
         }
 
