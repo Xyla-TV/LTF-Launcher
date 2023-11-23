@@ -6,7 +6,13 @@
 
 <br>
 
-<h2 align="center">LTF Launcher versions</h2>
+<h2 align="center">LTF Launcher current version</h2>
+<p align="center">This version is currently in development</p>
+<a target="_blank" href="https://github.com/Xyla-TV/LTF-Launcher/tree/v2.1"><img src="https://img.shields.io/static/v1?label=Version&message=x3&color=D5D5D5&logo=github&logoColor=white&style=for-the-badge"/></a>
+
+<br>
+
+<h2 align="center">LTF Launcher legacy versions</h2>
 
 <br>
 
