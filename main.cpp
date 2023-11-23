@@ -26,59 +26,75 @@ int main()
         {
             switch (event.type)
             {
-            case sf::Event::Closed:
-                window.close();
-                break;
-            case sf::Event::MouseMoved:
-            {
-                sf::Vector2i mousePos = sf::Mouse::getPosition(window);
-                sf::Vector2f mousePosF(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y));
+                case sf::Event::Closed:
+                    window.close();
+                    break;
+                case sf::Event::MouseMoved:
+                {
+                    sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+                    sf::Vector2f mousePosF(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y));
 
-                bool exitHover = false;
-                bool soundHover = false;
-
-                if (exitBackgroundSprite.getGlobalBounds().contains(mousePosF))
-                {
-                    exitHover = true;
-                }
-                else if (soundBackgroundSprite.getGlobalBounds().contains(mousePosF))
-                {
-                    soundHover = true;
-                }
-
-                if (exitHover)
-                {
-                    exitBackgroundSprite.setTexture(smallButtonHoveredTexture);
-                }
-                else
-                {
-                    exitBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
-                }
-
-                if (soundHover)
-                {
-                    soundBackgroundSprite.setTexture(smallButtonHoveredTexture);
-                }
-                else
-                {
-                    soundBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
-                }
-
-                if (exitHover || soundHover)
-                {
-                    if (!alreadyHovered)
+                    if (exitBackgroundSprite.getGlobalBounds().contains(mousePosF))
                     {
-                        window.setMouseCursor(handCursor);
-                        hoverSound.play();
-                        alreadyHovered = true;
+                        exitHover = true;
+                    }
+                    else
+                    {
+                        exitHover = false;
+                    }
+                    
+                    if (soundBackgroundSprite.getGlobalBounds().contains(mousePosF))
+                    {
+                        soundHover = true;
+                    }
+                    else
+                    {
+                        soundHover = false;
+                    }
+
+                    if (exitHover)
+                    {
+                        exitBackgroundSprite.setTexture(smallButtonHoveredTexture);
+                    }
+                    else
+                    {
+                        exitBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
+                    }
+
+                    if (soundHover)
+                    {
+                        soundBackgroundSprite.setTexture(smallButtonHoveredTexture);
+                    }
+                    else
+                    {
+                        soundBackgroundSprite.setTexture(smallButtonUnhoveredTexture);
+                    }
+
+                    if (exitHover || soundHover)
+                    {
+                        if (!alreadyHovered)
+                        {
+                            window.setMouseCursor(handCursor);
+                            hoverSound.play();
+                            alreadyHovered = true;
+                        }
+                    }
+                    else
+                    {
+                        window.setMouseCursor(arrowCursor);
+                        alreadyHovered = false;
                     }
                 }
-                else
+                case sf::Event::MouseButtonPressed:
                 {
-                    window.setMouseCursor(arrowCursor);
-                    alreadyHovered = false;
+                    if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                    {
+                        if (exitHover)
+                        {
+                            return 0;
+                        }
+                    }
                 }
-            }
             }
         }
 
