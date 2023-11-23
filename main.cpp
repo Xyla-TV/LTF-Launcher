@@ -93,6 +93,22 @@ int main()
                         {
                             return 0;
                         }
+
+                        if (soundHover)
+                        {
+                            if (isMusicMuted)
+                            {
+                                music.setVolume(0);
+                                soundSprite.setTexture(soundoffTexture);
+                                isMusicMuted = true;
+                            }
+                            else
+                            {
+                                music.setVolume(100);
+                                soundSprite.setTexture(soundonTexture);
+                                isMusicMuted = false;
+                            }
+                        }
                     }
                 }
             }

@@ -30,6 +30,8 @@ sf::SoundBuffer hoverSoundBuffer;
 
 sf::Sound hoverSound;
 
+sf::Music music;
+
 sf::Font RobotoRegular;
 sf::Font RobotoCondensed;
 
@@ -38,5 +40,6 @@ sf::Text versionText;
 bool alreadyHovered = false;
 bool exitHover = false;
 bool soundHover = false;
+bool isMusicMuted = false;
 
 #endif
