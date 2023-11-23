@@ -35,4 +35,6 @@ sf::Font RobotoCondensed;
 
 sf::Text versionText;
 
+bool alreadyHovered = false;
+
 #endif

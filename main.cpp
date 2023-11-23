@@ -66,12 +66,17 @@ int main()
 
                 if (exitHover || soundHover)
                 {
-                    window.setMouseCursor(handCursor);
-                    hoverSound.play();
+                    if (!alreadyHovered)
+                    {
+                        window.setMouseCursor(handCursor);
+                        hoverSound.play();
+                        alreadyHovered = true;
+                    }
                 }
                 else
                 {
                     window.setMouseCursor(arrowCursor);
+                    alreadyHovered = false;
                 }
             }
             }
