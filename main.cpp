@@ -67,6 +67,7 @@ int main()
                 if (exitHover || soundHover)
                 {
                     window.setMouseCursor(handCursor);
+                    hoverSound.play();
                 }
                 else
                 {

@@ -55,6 +55,11 @@ int import()
 		std::cout << "Error : can't load bundle.png" << std::endl;
 	}
 
+	if (!hoverSoundBuffer.loadFromFile("LTF/sounds/hover.wav"))
+	{
+		std::cout << "Error : can't load hover.wav" << std::endl;
+	}
+
 	return 0;
 }
 
@@ -80,6 +85,8 @@ int importProperty()
 	soundSprite.setTexture(soundonTexture);
 	soundSprite.setPosition(80, 680);
 
+	hoverSound.setBuffer(hoverSoundBuffer);
+
 	versionText.setFont(RobotoCondensed);
 	versionText.setCharacterSize(13);
 	versionText.setPosition(150, 685);
@@ -88,7 +95,7 @@ int importProperty()
 	handCursor.loadFromSystem(sf::Cursor::Hand);
 	
 	if (readConfigFile("config.cfg", config)) {
-		versionText.setString(config.launcher_version);
+		versionText.setString(config.launcher_version_name);
 	}
 
 	return 0;

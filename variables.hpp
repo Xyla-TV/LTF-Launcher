@@ -2,6 +2,7 @@
 #define VARIABLES_HPP
 
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 
 sf::RenderWindow window;
 
@@ -24,6 +25,10 @@ sf::Sprite soundBackgroundSprite;
 sf::Sprite exitSprite;
 sf::Sprite soundSprite;
 sf::Sprite bundleSprite;
+
+sf::SoundBuffer hoverSoundBuffer;
+
+sf::Sound hoverSound;
 
 sf::Font RobotoRegular;
 sf::Font RobotoCondensed;

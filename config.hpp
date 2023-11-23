@@ -7,7 +7,7 @@
 
 struct configData
 {
-    std::string launcher_version;
+    std::string launcher_version_name;
 };
 
 bool readConfigFile(const std::string& filename, configData& config);

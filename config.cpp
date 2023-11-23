@@ -13,8 +13,8 @@ bool readConfigFile(const std::string& filename, configData& config) {
 
     std::string line;
     while (std::getline(file, line)) {
-        if (line.find("launcher_version=") == 0) {
-            config.launcher_version = line.substr(line.find('=') + 1);
+        if (line.find("launcher_version_name=") == 0) {
+            config.launcher_version_name = line.substr(line.find('=') + 1);
             break;
         }
     }
@@ -26,7 +26,7 @@ bool readConfigFile(const std::string& filename, configData& config) {
 int mainConfig() {
     configData config;
     if (readConfigFile("config.cfg", config)) {
-        std::cout << "Launcher version: " << config.launcher_version << std::endl;
+        std::cout << "Launcher version: " << config.launcher_version_name << std::endl;
     }
 
     return 0;
