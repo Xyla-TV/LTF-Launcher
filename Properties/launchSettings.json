@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LTFLauncher (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LTFLauncher (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
