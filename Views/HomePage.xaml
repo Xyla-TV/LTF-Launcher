@@ -6,9 +6,23 @@
     xmlns:local="using:LTFLauncher.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Télécharger" Click="OnDownloadButtonClick" Grid.Row="0" Grid.Column="1"/>
+
+        <controls:WebView2 x:Name="MyWebView"  Grid.Row="1" Grid.ColumnSpan="2"
+        Source="https://abandonware-france.org/" HorizontalAlignment="Stretch" 
+        VerticalAlignment="Stretch"/>
     </Grid>
 </Page>
