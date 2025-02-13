@@ -82,6 +82,7 @@
 
             <NavigationView.FooterMenuItems>
                 <NavigationViewItem Content="Site Web" Icon="Globe" x:Name="WebsiteItem" />
+                <NavigationViewItem Content="Téléchargements" Icon="Download" x:Name="DownloadsItem" />
             </NavigationView.FooterMenuItems>
 
             <Frame x:Name="ContentFrame" Navigated="ContentFrame_Navigated" Padding="55,10,0,0" />
